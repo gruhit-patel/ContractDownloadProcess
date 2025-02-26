@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Campus Administrator",
+  "Type": "Element",
+  "Id": "3yk5ldZVsEeI22aKSBZDMA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/3yk5ldZVsEeI22aKSBZDMA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-10T22:58:31.6333039Z",
+  "Updated": "2025-02-10T22:58:31.6333039Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

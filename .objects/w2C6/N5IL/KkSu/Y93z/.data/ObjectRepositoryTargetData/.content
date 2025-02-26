@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h8qXa1FBhUSbGdvJmf-6Ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x" CVScreenId="885da0d7-1097-479c-8db3-f92fbea8736b" CvTextArea="764, 798, 66, 18" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="746, 782, 102, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green uppercase' aaname='Login' check:innerText='LOGIN' /&gt;" Guid="581b44c9-dec9-4368-959b-0b203062475b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="313781d9e4f2b940c6e4fb2c4742e058.png" xmlns="">0WPsIfWB6pEWcDVaNWaa4uw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

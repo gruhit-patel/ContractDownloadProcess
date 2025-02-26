@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CurrentAwaitingStudents…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "doMhi_xAI0m1WNd_BtFd4Q",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/doMhi_xAI0m1WNd_BtFd4Q",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-18T15:41:33.2352139Z",
+  "Updated": "2025-02-18T15:41:33.2352139Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

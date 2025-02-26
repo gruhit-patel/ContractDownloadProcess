@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="74NWgxT4sEW8tGmYgdlBmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" DesignTimeRectangle="170, 50, 350, 47" DesignTimeScaleFactor="1.5" ElementType="Toolbar" FullSelectorArgument="&lt;wnd ctrlid='1001' title='Address: C:\Users\User\Documents\StudentContract\SD16502202516' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1001' title='Address: C:\Users\User\Documents\StudentContract\SD16502202516' check:text='Address: C:\Users\User\Documents\StudentContract\SD16502202516' /&gt;" Guid="d309f824-cd3a-4be2-b27b-f2da4353012d" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3356666ef4a4738e299e673621df81a9.png" xmlns="">0YTZRkYjFakKWVN1MBJ3r3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

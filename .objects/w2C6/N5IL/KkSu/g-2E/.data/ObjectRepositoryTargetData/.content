@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3oQFAhHvqUmJlMT32Kn0iQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="8cd41040-5099-4d8c-bb1e-933d964c0abe" CvElementArea="1412, 154, 188, 56" CvType="InputBox" DesignTimeRectangle="1415, 156, 183, 51" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' type='' class='form-control margin-top-10' aaname='' /&gt;" Guid="33676b5f-9363-4516-9aba-e8f635a10d15" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8cd41040-5099-4d8c-bb1e-933d964c0abe" CvTextArea="1274, 170, 108, 24" CvTextArgument="Help Center" CvType="Text" DesignTimeRectangle="1275, 169, 104, 22" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Help Center' check:innerText='Help Center' /&gt;" Guid="b67ba554-8dfc-4057-8ad1-4ba8278ef321" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="39b132d08710ad59d6bed1c0f90a9096.png" xmlns="">0GuE8CZ-Tt0mlZ7C8eEikow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

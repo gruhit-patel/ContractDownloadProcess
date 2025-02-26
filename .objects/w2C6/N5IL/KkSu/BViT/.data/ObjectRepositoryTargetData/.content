@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8NbSnC6NQU2AmUXSW0ySIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="df8a3ce1-fd84-4994-a4c0-e5e4a4397373" CvElementArea="131, 485, 527, 42" CvType="InputBox" DesignTimeRectangle="132, 486, 524, 39" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='select2-search__field' tag='INPUT' type='search' aaname='' /&gt;" Guid="409c86df-10dd-4a27-9c23-aa36a5e82ba5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df8a3ce1-fd84-4994-a4c0-e5e4a4397373" CvTextArea="123, 405, 126, 20" CvTextArgument="Student Name" CvType="Text" DesignTimeRectangle="125, 391, 124, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='control-label' parentid='form_sample_4' tag='LABEL' type='' aaname=' Student Name ' check:innerText='Student Name' /&gt;" Guid="917c004a-237c-4ab2-83be-58c32d8537a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="521a26f52f23dda43157e0c4d7e78466.png" xmlns="">0Y0vtmXhk00iW_IKZKCOzhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0Q9neRo5yUWVinzSW98e_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="e44e2700-dc69-4342-a6fc-5aa5b6334a18" CvElementArea="115, 633, 206, 49" CvType="InputBox" DesignTimeRectangle="117, 634, 202, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='from_started_at' tag='INPUT' type='text' class='form-control form-filter input-sm' placeholder='From' aaname='' /&gt;" Guid="c6ac4d42-f4cd-4510-a5b4-38ab9d8306e5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e44e2700-dc69-4342-a6fc-5aa5b6334a18" CvTextArea="116, 605, 79, 16" CvTextArgument="Start Date" CvType="Text" DesignTimeRectangle="117, 601, 78, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Start Date' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Start Date' /&gt;" Guid="004fb301-5133-4e5e-aee8-61e288547e19" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0383bc6053e6e55b8d98e581f0de76c0.png" xmlns="">00Sbct-dCVEuENNTUVJlxsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

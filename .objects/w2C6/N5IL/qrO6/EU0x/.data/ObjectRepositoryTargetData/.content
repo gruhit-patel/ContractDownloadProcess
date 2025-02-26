@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lPNSMvnCxECJegMk63ZIqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co" CVScreenId="af85a329-0420-4210-a2b6-fd422d788661" CvElementArea="742, 632, 456, 55" CvType="InputBox" DesignTimeRectangle="746, 634, 450, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='required email form-control form-control-solid placeholder-no-fix' placeholder='Email' aaname='' /&gt;" Guid="cd102be6-9c68-45c2-a63a-19a4e9c0f2b5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6d7097b03d74f9a43b2797f1efc40879.png" xmlns="">09mS78H6LyEymBqWQBaZbiw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

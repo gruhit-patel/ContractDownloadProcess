@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wa5yQ2XUfU6LffdC7d4dTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="41f60257-ff79-47fe-83d6-76db8d7edeff" CvElementArea="213, 48, 356, 48" CvType="InputBox" DesignTimeRectangle="213, 48, 356, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="bcfea761-4444-4b14-9f5f-a3f89329c8cf" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41f60257-ff79-47fe-83d6-76db8d7edeff" CvTextArea="49, 13, 64, 18" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="49, 13, 64, 18" ElementType="Text" Guid="968bd3a6-f850-4c6c-9b6a-5fbc417004ae" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopRight" X="-52" Y="15" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd7cef341acb230f52f17e3ebf38fbf8.png" xmlns="">0sa1ZZVLSFkOj59VdEZMP6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

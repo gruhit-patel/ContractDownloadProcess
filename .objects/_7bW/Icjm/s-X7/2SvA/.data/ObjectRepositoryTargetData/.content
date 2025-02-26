@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ao0CcsDJAEiFc4qRUc426A" Reference="m1Fp01h0LUOGvJRWhjL05Q/2SvACclivUODGPApMBuWAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/execute-click-activity-for-exact-match-of-a-string/97867" CVScreenId="b2926eac-9952-4d2a-ba60-8c59c3e86081" CvTextArea="539, 584, 666, 22" CvTextArgument="[templateName]" CvType="Text" DesignTimeRectangle="540, 580, 670, 26" DesignTimeScaleFactor="1.350000023841858" FuzzyAccuracy="0.9" FuzzySelectorArgument="[searchingFuzzySelector]" Guid="588feada-13ee-466e-a2d4-7b24a47eaffd" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="67919dc469e4d8125fed6a498a6ca289.png" xmlns="">0evJJ17cQkU-QzDtFqMuChg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="2">
+      <ObjectRepositoryVariableData Name="searchingFuzzySelector" />
+      <ObjectRepositoryVariableData Name="templateName" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

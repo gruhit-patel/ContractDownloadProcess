@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="94nNZSMFYkq1CJQQ_ZMmrw" Reference="m1Fp01h0LUOGvJRWhjL05Q/O9rKBW8wrEu08XyIpJbv9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="97c6472f-3268-4dec-8d42-2a870d5d5a78" DesignTimeRectangle="11, 219, 0, 0" DesignTimeScaleFactor="1.350000023841858" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;svg&amp;gt;path' tag='path' isleaf='1' parentclass='Icon-sc-36vrnf-0 kkDTth Icon__StyledIcon-ttu7ny-0 iJOWdx' idx='1' /&gt;" FuzzyMatches="10000" Guid="3c6ddd73-7b0a-45fc-9bdc-3c5d72df4907" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SD173022025105 - PandaDoc' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

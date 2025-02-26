@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aSFV7vbXd02ewCi9Qe4mAg" Reference="m1Fp01h0LUOGvJRWhjL05Q/KeRiy6bSA0WrvV4JAWzMMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="a4d2fbe8-a4fe-4fa3-8c12-d7035a89564f" CvElementArea="1746, 865, 30, 28" CvTextArea="1472, 855, 113, 12" CvTextArgument="Staff Details" CvType="ArrowButton" DesignTimeRectangle="1450, 840, 321, 51" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aaname='Staff Details' type='' tag='A' class='' check:innerText='Staff Details' /&gt;" Guid="bd66d02c-9667-4656-b3fb-eb899a30010f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="a4d2fbe8-a4fe-4fa3-8c12-d7035a89564f" CvTextArea="1158, 671, 220, 19" CvTextArgument="[Email.ToString()]" CvType="Text" DesignTimeRectangle="1158, 659, 258, 131" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' aaname='&quot; + Email.ToString() + &quot;' /&gt;&quot;]" Guid="b251412b-3167-4f05-93ea-82bd92782c3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ec0188eb21222c4b7516d16fbd2cedc.png" xmlns="">0wK-HpfIazEaDvA0Tn84iXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VjXK4z8am0O3oO4sCWJVHw" Reference="m1Fp01h0LUOGvJRWhjL05Q/hhp4iMC2i0G_a1g3lueB4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="b1c7e142-46ed-40ab-abcc-913adfed477f" CvElementArea="479, 669, 965, 38" CvType="InputBox" DesignTimeRectangle="442, 400, 1032, 38" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='searchField-g6uz' tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Start typing name, email or group' aaname='' /&gt;" Guid="fb3d6664-c4a2-41b5-8241-e00b41a5c7c7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="b1c7e142-46ed-40ab-abcc-913adfed477f" CvTextArea="588, 642, 63, 12" CvTextArgument="ADMISSION" CvType="Text" DesignTimeRectangle="559, 367, 74, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='ADMISSION' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='ADMISSION' /&gt;" Guid="09fa83d0-6df1-4997-8be1-cbaa5e82a75b" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="b1c7e142-46ed-40ab-abcc-913adfed477f" CvTextArea="474, 638, 106, 19" CvTextArgument="Add recipient" CvType="Text" DesignTimeRectangle="442, 367, 113, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='Paragraph-sc-1xalku8-0 cdKAkn Paragraph-t6avu0-0 fPDfSY styled__Title-nv2ut4-2 fCFmfP' tag='P' aaname='Add recipient' check:innerText='Add recipient' /&gt;" Guid="9ea81351-8372-4bee-9e4f-607b5b866b82" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4bd866a9915dfda3e1609ae64a5cff30.png" xmlns="">0Vx256xquGkyC_8aaIo986w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

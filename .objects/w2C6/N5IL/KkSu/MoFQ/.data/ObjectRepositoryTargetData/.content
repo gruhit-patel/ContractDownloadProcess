@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jkhFSzwYKE2CjyFRCJzcAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="74fcbd02-9059-4158-85ea-ce0efa01f5f2" CvTextArea="1593, 522, 46, 19" CvTextArgument="CSV" CvType="Text" DesignTimeRectangle="1578, 508, 220, 50" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='CSV' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CSV' tag='A' type='' class='dt-button buttons-csv buttons-html5' check:innerText='CSV' /&gt;" Guid="9859f21f-b7d0-42a1-b8cc-d4537f747013" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="94fa98db927f765156c2cbaad2f31260.png" xmlns="">0XXZ_mufGVEGj3d1aam1ACg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

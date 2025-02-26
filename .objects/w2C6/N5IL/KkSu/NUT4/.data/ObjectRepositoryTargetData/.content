@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="48PCPwOHBUW6ooNk_g-n4g" Reference="m1Fp01h0LUOGvJRWhjL05Q/NUT41kItPUGLmJiNv2QYzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/44581/staff-details" CVScreenId="30693a68-5263-4c74-91eb-74526a3550c3" CvElementArea="355, 633, 36, 36" CvTextArea="402, 642, 141, 19" CvTextArgument="Wonderlic Test" CvType="RadioButton" DesignTimeRectangle="360, 480, 182, 31" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl class='mt-radio' parentid='form_sample_4' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='mt-radio' parentid='form_sample_4' tag='LABEL' type='' aaname='                                                                                 Wonderlic Test                                                                                                                                                              ' /&gt;" Guid="bac42f6c-829e-4f14-a595-9f0790e22f6b" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="30693a68-5263-4c74-91eb-74526a3550c3" CvTextArea="123, 597, 395, 20" CvTextArgument="Ontario Grade 12 Graduate or Wonderlic Test" CvType="Text" DesignTimeRectangle="125, 428, 392, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Ontario Grade 12 Graduate or Wonderlic Test' class='control-label' parentid='form_sample_4' tag='LABEL' type='' check:innerText='Ontario Grade 12 Graduate or Wonderlic Test' /&gt;" Guid="07da009a-58d4-4ed9-8d95-0f5d16462f86" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1c18576bc66f7e2ec5b3e557105a1a77.png" xmlns="">0kRfGqH6pR0CyN8NGMl6UYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

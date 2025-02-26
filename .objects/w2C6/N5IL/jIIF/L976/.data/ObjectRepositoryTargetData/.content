@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="55WaGFkSu0CyK-VAXGRRhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/44411/staff-details" CVScreenId="ac6a76fe-44a2-4b6a-a165-f56fb2d96dc4" CvTextArea="1287, 233, 65, 24" CvTextArgument="Log in" CvType="Text" DesignTimeRectangle="1290, 230, 62, 24" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                   Log in                     ' tag='A' type='' class='header-top-bar__link link-meta' check:innerText='Log in' /&gt;" Guid="9676d5a1-ac6f-41e2-89ef-291355744e9e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc – Create, Approve, Track &amp;amp; eSign Docs 40% Faster' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ac6a76fe-44a2-4b6a-a165-f56fb2d96dc4" CvTextArea="1379, 231, 121, 25" CvTextArgument="Help center" CvType="Text" DesignTimeRectangle="1382, 230, 117, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                   Help center                     ' tag='A' type='' class='header-top-bar__link link-meta' check:innerText='Help center' /&gt;" Guid="f544f31c-35a4-4c74-bcdf-9c7c1eb60701" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dfc852d4acc2821f9156c0dbf8d7e296.png" xmlns="">0J3dsGdlbHk6oPApwumbNFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Placement",
+  "Type": "Element",
+  "Id": "V5G_htUe1USPGZT4b1Dkew",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/V5G_htUe1USPGZT4b1Dkew",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-11T22:24:27.3390627Z",
+  "Updated": "2025-02-11T22:24:27.3390627Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

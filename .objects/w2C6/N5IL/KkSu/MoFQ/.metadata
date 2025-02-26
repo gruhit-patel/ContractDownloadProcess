@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CSV",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MoFQawx3QUuWDs-xr4MydA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/MoFQawx3QUuWDs-xr4MydA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-15T16:52:40.6338637Z",
+  "Updated": "2025-02-15T16:52:40.6338637Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="As9yBjHsN02L40-oVmM41Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/watch" CVScreenId="1ca71d42-dc3c-44e2-b8f2-a4b58e83b0b8" CvTextArea="452, 320, 128, 15" CvType="AnyWordGroup" DesignTimeRectangle="454, 401, 127, 17" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;appjs-document-wizard&amp;gt;section&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h4' tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H4' class='Title-sc-1hy0sh-0 elJdIE Caption-sc-1vurad7-0 fXYCvf' check:text='Document name' /&gt;" Guid="8d8515af-4b85-4526-8d72-f1ec7075f398" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Human Resource Management (Internship) - Distance Education - 44 Page - PandaDoc' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1ca71d42-dc3c-44e2-b8f2-a4b58e83b0b8" CvTextArea="587, 428, 51, 12" CvTextArgument="STUDENT" CvType="Text" DesignTimeRectangle="585, 508, 57, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='STUDENT' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='STUDENT' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='STUDENT' /&gt;" Guid="029adb53-099a-4fc6-88a7-fe9137d3f497" SearchSteps="Selector, FuzzySelector, CV" />
+          <Target CVScreenId="48a2f505-883a-4705-b22b-9960ddd590e3" CvTextArea="452, 305, 340, 28" CvTextArgument="Add document recipients" CvType="Text" DesignTimeRectangle="454, 300, 1010, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='Title-sc-1hy0sh-0 dSnhfn Display-sc-18b8rkt-0 tfZVP' aaname='Add document recipients' check:innerText='Add document recipients' /&gt;" Guid="19aefc18-85c1-47a6-a783-cf431fdc7752" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b46ad0cfa5450b135759b848e59f7808.png" xmlns="">0TGp3F4Iv7Um8Uudh5RkEYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 3 DOTs",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "BzT1juXBtUWzUnVhOR0ifQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/BzT1juXBtUWzUnVhOR0ifQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/jIIFmvPrwEuJ_SJwoqh3jQ",
+  "Created": "2025-02-14T18:08:23.4844704Z",
+  "Updated": "2025-02-14T18:08:23.4844704Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

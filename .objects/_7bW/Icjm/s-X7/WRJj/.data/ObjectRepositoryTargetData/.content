@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fiBml9LIik6bpI6eYuxVPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="05e70a88-53b3-4f8f-92cb-d694e1f23439" CvElementArea="478, 697, 963, 37" CvType="InputBox" DesignTimeRectangle="475, 698, 966, 36" DesignTimeScaleFactor="1.125" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='searchField-nfsq' tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Start typing name, email or group' aaname='' /&gt;" Guid="0c4eb2ae-83ee-429b-86ce-8d4c704c0fa9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="05e70a88-53b3-4f8f-92cb-d694e1f23439" CvTextArea="588, 669, 22, 12" CvTextArgument="FAO" CvType="Text" DesignTimeRectangle="585, 666, 30, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='FAO' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='FAO' /&gt;" Guid="14c7b918-ec42-4966-8663-ba1fee1cf43a" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="05e70a88-53b3-4f8f-92cb-d694e1f23439" CvTextArea="474, 665, 106, 18" CvTextArgument="Add recipient" CvType="Text" DesignTimeRectangle="475, 666, 106, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='Paragraph-sc-1xalku8-0 cdKAkn Paragraph-t6avu0-0 fPDfSY styled__Title-nv2ut4-2 fCFmfP' tag='P' aaname='Add recipient' check:innerText='Add recipient' /&gt;" Guid="c92e57ec-0852-4c07-8c54-840df47d8d9a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2effc25c68e29625f6c495487a6e882e.png" xmlns="">0RxfIv0yj8E-cfhp0VX98wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

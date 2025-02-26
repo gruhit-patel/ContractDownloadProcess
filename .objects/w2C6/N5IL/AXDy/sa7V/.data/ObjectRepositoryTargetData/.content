@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rhwVFHSJXE6Wu-jVj3hvTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" CvElementArea="514, 847, 107, 54" CvTextArea="534, 863, 69, 19" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="517, 848, 103, 51" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green' aaname='Submit' check:innerText='Submit' /&gt;" Guid="1c24ef4f-9df6-48f0-bbdd-535e9a6137fe" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" CvElementArea="621, 846, 110, 54" CvTextArea="642, 863, 67, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="625, 848, 104, 51" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='reset' class='btn default' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="51c6394d-8f51-4835-bc76-f17dfe79215d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="92350bfd6419f79cad75451889c0db5b.png" xmlns="">05pyP3f7GWUWXr-lrV5mCTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

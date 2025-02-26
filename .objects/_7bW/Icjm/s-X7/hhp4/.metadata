@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ADMISSION",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "hhp4iMC2i0G_a1g3lueB4Q",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/hhp4iMC2i0G_a1g3lueB4Q",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-11T16:20:16.2355705Z",
+  "Updated": "2025-02-11T16:20:16.2355705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

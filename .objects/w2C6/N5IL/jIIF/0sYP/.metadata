@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Graphics & Web DesignD…",
+  "Type": "Element",
+  "Id": "0sYPwhN1ikST3Ge6IS25UA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/0sYPwhN1ikST3Ge6IS25UA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/jIIFmvPrwEuJ_SJwoqh3jQ",
+  "Created": "2025-02-13T21:38:25.952956Z",
+  "Updated": "2025-02-13T21:38:25.952956Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

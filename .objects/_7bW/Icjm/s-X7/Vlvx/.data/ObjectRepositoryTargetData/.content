@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8tUuTDC2u0CTvoYDLWuWXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="3c5733ff-442e-4afe-835d-8aa66f99af66" CvTextArea="72, 552, 73, 18" CvTextArgument="Templates" CvType="Text" DesignTimeRectangle="38, 543, 259, 36" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl id='documents_templates' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='documents_templates' tag='BUTTON' type='' class='styled__Action-sc-1tbbxv8-0 NavigationSubItem__SubItem-sc-810h8y-0 bWwPFI fUCodb __navigation-panel-template-button__' aaname='Templates' check:innerText='Templates' /&gt;" Guid="10219a8f-df28-44f3-a04a-4fd9b67ebd67" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternship - PandaDoc' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3c5733ff-442e-4afe-835d-8aa66f99af66" CvTextArea="72, 552, 73, 18" CvTextArgument="Templates" CvType="Text" DesignTimeRectangle="74, 553, 72, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='documents_templates' tag='DIV' type='' class='NavigationSubItem__SubItemTitle-sc-810h8y-1 fYfbAT' aaname='Templates' check:innerText='Templates' /&gt;" Guid="295ebbeb-953d-46bd-8d9a-f0ae9cafaca0" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="3c5733ff-442e-4afe-835d-8aa66f99af66" CvTextArea="72, 480, 97, 15" CvTextArgument="Documents" CvType="Text" DesignTimeRectangle="74, 467, 96, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Documents' parentid='app' tag='DIV' type='' class='styled__ItemTitle-sc-1tbbxv8-14 fcDHZZ' check:innerText='Documents' /&gt;" Guid="751506ba-8b8a-4241-93f4-87296c784f9a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="99fb1661ccf314817f3363b0ca3a09a6.png" xmlns="">0BL7ZXHKnOUOQAOfzp5Jnhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F1G1p_BHeEWGfEjIolqRNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="dc28ddcf-2e8a-49f2-8ff7-bbb72f854103" CvTextArea="39, 37, 273, 28" CvTextArgument="Recent download history" CvType="Text" DesignTimeRectangle="39, 37, 273, 28" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="d9a0c911-2846-4b14-88b9-ed2d0ace2b42" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Recent download history' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="431, 31, 30, 31" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Recent download history' role='dialog' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Recent download history' role='dialog' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:fulltext='Close' /&gt;" Guid="dc7a0789-4233-4676-9588-fca82643fae0" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50afcaf703de0bddf3d003d550fedffc.png" xmlns="">0sAiowi_tpU-f7IPkQBiSBA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

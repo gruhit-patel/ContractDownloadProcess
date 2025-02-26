@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dVx0veT260iDX6NYh8I8vA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/login" CVScreenId="e1195d42-9c11-4f98-b22b-49cef7289be2" CvElementArea="755, 651, 430, 55" CvTextArea="942, 669, 55, 21" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="757, 652, 428, 52" DesignTimeScaleFactor="1.125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='submit_button' tag='BUTTON' type='submit' class='Button-cgzqex-0 ffzntj BaseButton-sc-7rutg1-0 PrimaryButton-sc-52bl8x-0 eWCwWa bDtBnL sc-cPiKLX injtNr' aaname='Log in' check:innerText='Log in' /&gt;" Guid="c35a8a8e-3581-480d-95f1-2fcffda4210f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc - fast and easy way to send and sign documents online.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a266a76bb06add1d9908b686a1a5da96.png" xmlns="">0aG1RxEkWvku-ybm8_uYR0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

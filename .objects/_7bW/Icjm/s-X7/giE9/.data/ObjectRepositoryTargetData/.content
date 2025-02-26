@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YmCCY1C3Uk-pSkn_BAYWZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="21b58691-bef1-4f60-baf3-1add0d7a4c3a" CvElementArea="442, 677, 1034, 41" CvType="InputBox" DesignTimeRectangle="442, 678, 1032, 39" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='searchField-6968' tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Start typing name, email or group' aaname='' /&gt;" Guid="cdbba299-7538-4b1e-8593-0852361f9389" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Human Resource Management (Internship) - Distance Education - 44 Page - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="21b58691-bef1-4f60-baf3-1add0d7a4c3a" CvTextArea="561, 650, 120, 10" CvTextArgument="PLACEMENT OFFICER" CvType="Text" DesignTimeRectangle="559, 645, 126, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Placement Officer' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Placement Officer' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='PLACEMENT OFFICER' /&gt;" Guid="728718ce-1655-480a-839f-8991fe24e3a9" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b5f490c98639dc72d0819076a6f6538d.png" xmlns="">0N8qWnSXEnk6Vlty-ACsMIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C4P5kNuqc0eCALc9wOv7jQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="4d13ebd5-7cef-4317-9365-8ca8916b3d5d" CvElementArea="289, 365, 33, 29" CvType="ArrowButton" DesignTimeRectangle="291, 363, 33, 33" DesignTimeScaleFactor="1.350000023841858" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' type='' tag='svg' class='Icon-sc-36vrnf-0 kkDTth Icon__StyledIcon-ttu7ny-0 iJOWdx' aaname='' /&gt;" Guid="ab9e963c-20d8-4b6c-bc9b-e13f0fa44fe7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SD173022025105 - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4d13ebd5-7cef-4317-9365-8ca8916b3d5d" CvTextArea="108, 312, 130, 22" CvTextArgument="+ Document" CvType="Text" DesignTimeRectangle="100, 308, 151, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl parentid='top-editor-toolbar' tag='BUTTON' type='button' class='Button-cgzqex-0 iWkrqu BaseButton-sc-7rutg1-0 GhostButton-sc-1svqrv3-0 bLgMjQ dqfdRW styled__AddDocumentButton-sc-6d3tz4-41 cZTjlR __toolbar-add-document-button__' aaname='Document' check:innerText='Document' /&gt;" Guid="387dc47a-6d73-4fc7-8a6a-6436b01ea09b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b5f1020cdcc8a4609e76cfc242e4de4c.png" xmlns="">0wkCb9tNuh0ii_tjEcU8BnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

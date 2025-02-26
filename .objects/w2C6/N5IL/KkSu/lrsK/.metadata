@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Staff Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lrsKPT6eJkeFyoM9C0vYVg",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/lrsKPT6eJkeFyoM9C0vYVg",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-10T22:57:26.7723771Z",
+  "Updated": "2025-02-10T22:57:26.7723771Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HTbedRkbbE6e6J_1jhiVJw" Reference="m1Fp01h0LUOGvJRWhjL05Q/cOA9gF4bNkuKJjeno1HbaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/41767/staff-details" DesignTimeRectangle="831, 801, 652, 48" DesignTimeScaleFactor="1.5" ElementType="List" FullSelectorArgument="&lt;webctrl idx='7' parentid='staffAllDetailsAdd' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='staffAllDetailsAdd' tag='UL' class='select2-selection__rendered' aaname='' /&gt;" Guid="749430e6-9d8c-423a-818a-67b4633c2d58" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ad125bf3-0443-4a6d-8755-70c494bd9af6" CvTextArea="549, 656, 177, 19" CvTextArgument="Financial Aid Officer" CvType="Text" DesignTimeRectangle="550, 802, 183, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Financial Aid Officer' parentid='staffAllDetailsAdd' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Financial Aid Officer' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Financial Aid Officer*' /&gt;" Guid="ab531b5b-c406-4cdd-afba-c8bd20a4232f" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee4c5f5ee676a8a52e1bfde9f4f0ccf4.png" xmlns="">0zDQ2lktUwECmapawI3VbOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

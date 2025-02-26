@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oZsp2mk2RUa_z2eHYtlqIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="9d718417-02f8-4ba7-a815-effdcf23752a" CvElementArea="476, 826, 968, 39" CvType="InputBox" DesignTimeRectangle="475, 828, 966, 36" DesignTimeScaleFactor="1.125" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='searchField-7oob' tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Start typing name, email or group' aaname='' /&gt;" Guid="f59887da-072c-4088-be5c-ef8b908b9654" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9d718417-02f8-4ba7-a815-effdcf23752a" CvTextArea="587, 801, 85, 10" CvTextArgument="CAMPUS ADMIN" CvType="Text" DesignTimeRectangle="585, 797, 92, 18" ElementType="Text" FuzzyAccuracy="0.99" FuzzySelectorArgument="&lt;webctrl aaname='CAMPUS ADMIN' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='CAMPUS ADMIN' /&gt;" Guid="ba6a00f0-e86a-442b-887b-4b0c2210125a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e39c50e8246f2e888b48ce476be4a4f3.png" xmlns="">0kSTY75wjMUOIRMxACsf13Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

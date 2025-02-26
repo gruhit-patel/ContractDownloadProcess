@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HazRPqQPiEyFUQU1x-ZZBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="de1a75ff-4135-4c13-a433-a0bc423276f2" CvElementArea="124, 563, 541, 55" CvType="InputBox" DesignTimeRectangle="125, 565, 538, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='signed_at' tag='INPUT' type='text' class='form-control normal-date-picker required' placeholder='YYYY-MM-DD' aaname='' /&gt;" Guid="985937bf-c579-4a14-b9e9-596b8b9c7779" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="de1a75ff-4135-4c13-a433-a0bc423276f2" CvTextArea="123, 540, 398, 19" CvTextArgument="Enter date when student will sign this contract" CvType="Text" DesignTimeRectangle="125, 525, 395, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter date when student will sign this contract' class='control-label' parentid='form_sample_4' tag='LABEL' type='' check:innerText='Enter date when student will sign this contract' /&gt;" Guid="23b8917e-5452-4a8b-b34c-c00f4d9aba2a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b88a22e6433f4ea718178e6f0bf30128.png" xmlns="">0I480x3BTWkq6NlKJVsa4dA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

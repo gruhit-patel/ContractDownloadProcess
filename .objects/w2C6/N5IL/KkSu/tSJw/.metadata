@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Osap Approved",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "tSJw-bhkrUusKDAkGVSJpQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/tSJw-bhkrUusKDAkGVSJpQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-25T14:07:34.9026384Z",
+  "Updated": "2025-02-25T14:07:34.9026384Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

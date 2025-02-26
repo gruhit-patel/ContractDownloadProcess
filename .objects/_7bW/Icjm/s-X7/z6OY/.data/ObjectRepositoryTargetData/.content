@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iFEhVButZ0idzndYGe-nYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/login" CVScreenId="44fa2b8c-d7bb-40cb-b530-095b75b8c34d" DesignTimeRectangle="757, 527, 428, 52" DesignTimeScaleFactor="1.125" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='sc-dAlyuH WoDWm' aaname='' /&gt;" Guid="744cf7ff-70cc-40fb-81c0-bff01077e2ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc - fast and easy way to send and sign documents online.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="44fa2b8c-d7bb-40cb-b530-095b75b8c34d" CvElementArea="754, 526, 433, 55" CvType="InputBox" DesignTimeRectangle="774, 541, 72, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' parentid='app' tag='DIV' type='' class='sc-kpDqfm bQIctC' check:innerText='Password' /&gt;" Guid="7171c175-f194-44ef-b3c4-a838cb928ed6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f30fe6231025f67ab7c93d7801b1b920.png" xmlns="">0PojbIkcWFEmCO97qo393fQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

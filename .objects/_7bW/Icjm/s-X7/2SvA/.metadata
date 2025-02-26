@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Search results",
+  "Type": "Element",
+  "Id": "2SvACclivUODGPApMBuWAg",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/2SvACclivUODGPApMBuWAg",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-12T18:13:08.3074365Z",
+  "Updated": "2025-02-12T18:13:08.3074365Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-9KAQls5pk-3sydHuT11jQ" Reference="m1Fp01h0LUOGvJRWhjL05Q/dp4O9vsao0-zC2gF6H8k1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="3c7bbb7f-8dc6-4f5f-b003-c916b72d7748" DesignTimeRectangle="11, 219, 0, 0" DesignTimeScaleFactor="1.350000023841858" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;svg&amp;gt;path' tag='path' /&gt;" Guid="cb66737b-90ef-41df-bc9b-f1b5ffb090e6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SD173022025105 - PandaDoc' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

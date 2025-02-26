@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Use this template",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "VPOqoY4CkkepIMwTfkTHCw",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/VPOqoY4CkkepIMwTfkTHCw",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-11T15:57:18.242575Z",
+  "Updated": "2025-02-11T15:57:18.242575Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

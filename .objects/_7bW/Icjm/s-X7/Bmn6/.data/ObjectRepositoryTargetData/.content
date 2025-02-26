@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JBvdclFzGk27JJLgQFNGxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="b794e0f4-fc41-48f6-9c87-132a92430ba3" CvElementArea="476, 826, 968, 39" CvType="InputBox" DesignTimeRectangle="475, 828, 966, 36" DesignTimeScaleFactor="1.125" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='searchField-1wqt' tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Start typing name, email or group' aaname='' /&gt;" Guid="a298c205-b4a8-4f33-b15d-4bda79bc56ec" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b794e0f4-fc41-48f6-9c87-132a92430ba3" CvTextArea="587, 801, 85, 10" CvTextArgument="CAMPUS ADMIN" CvType="Text" DesignTimeRectangle="585, 797, 92, 18" ElementType="Text" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl aaname='CAMPUS ADMIN' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='CAMPUS ADMIN' /&gt;" Guid="c45b231c-0d24-4fa7-80ab-b0698795412c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAAAWCAYAAAA/45nkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJcSURBVGhD7Zk9bipBEIR9O07ABcghJybnDKSkXIGUkCMQEiIi0Dx9SN+qPN7F8kOwybRUmt2e/qnuwrIEX6XZqNYEGNmaACNbJ8DtdivX67VcLpeGN4Ids2utE6At/3Ng19pDgPv93hvY8D6w804ArC+o4X3QmgAjQWsCjATtVwFOp1OZzWZlMpk8MJ1Oy/F47L3f7/edn2d83BGTsdY4n89luVx2tcF6vX7Ebrfbb73MxZ/1RfZOEM89feinnz6Zn/f0pHf2T6708t08+WQdejhPDe2pAA5tUZvmUmkMUXzZLBfkclxGLUA9BOczAWox6lhh/fl8/uMers5Rz0Uc8XCxRz3PEPfMeVkACtkw/TRUAJsQ6wD4yWEIfJDEXy9jaAjOeqnku3QXZJ68ahBHDvXM9S4F4D17Wx+uxhiPn5g+7twRkznAngntVwFyCTVcSpLmmTsJbTabx7nb7cpisXic1nQIPzlAws8E8D7zHJo7QYwLom4K5kLNgS91yHGWIe7EDgnASV2X7zw1tP/6CxCSTthQQofDoVsyd/pTgFxM1jaO91qAOpb6nPqsndyyHlz6BOBUAJ6Jw08tZtE/JAC5PiuEnBLan/4H4JOQ5LIBy3GoJJRCpr8ewjrAJbhw8rKGz/Vd5sOFk/daQHjLtZ7T3tmLvPTX3PHVc5H3kgBAchQDNpGMA4Ekm4TAarUaJOoQ2TfriezF89AdyAXzbi993Gd+cnA2+hPLHWf6a+45V9Z4WYCG90BrAowErQkwErROgPZ19Ofw4+torP0g8xmw494fZJqNYaX8A6DpDiz2wU30AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="393b3e86f3491b585d51e39c5882c483.png" xmlns="">0lQvtqZMkkkm2MPm6AEdh7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

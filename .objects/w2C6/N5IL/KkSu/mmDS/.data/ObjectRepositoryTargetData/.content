@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q70VNsiNC0WHJH-JRlxulw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="e1654e18-d80a-4838-b900-e7034aaabf97" CvElementArea="514, 847, 107, 54" CvTextArea="534, 863, 69, 19" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="517, 848, 103, 51" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green' aaname='Submit' check:innerText='Submit' /&gt;" Guid="768d8df0-b68e-41eb-aa33-932293738d63" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bb99839669812323a4dac2cd60d8d8e1.png" xmlns="">0W5KnIY2JnEGsP7TASl1Paw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

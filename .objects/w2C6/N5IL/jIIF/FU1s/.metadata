@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CAMPUS ADMIN(3)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FU1slIMfE02rGXXFUj597Q",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/FU1slIMfE02rGXXFUj597Q",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/jIIFmvPrwEuJ_SJwoqh3jQ",
+  "Created": "2025-02-13T21:10:00.1771879Z",
+  "Updated": "2025-02-13T21:10:00.1771879Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

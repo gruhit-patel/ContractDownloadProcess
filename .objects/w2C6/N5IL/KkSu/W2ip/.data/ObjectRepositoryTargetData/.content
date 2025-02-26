@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fhpbYll300CPQVaUfrXNoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/44600/staff-details" CVScreenId="63cf5545-f796-4ebc-99b0-e90149a397a5" CvElementArea="828, 585, 658, 55" CvType="InputBox" DesignTimeRectangle="840, 595, 123, 25" DesignTimeScaleFactor="1.5" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='staffAllDetailsAdd' tag='LI' class='select2-selection__choice' aaname='Jaspreet Kaur' check:innerText='Jaspreet Kaur' /&gt;" Guid="459e055d-177b-4abf-8978-30076ec9075b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63cf5545-f796-4ebc-99b0-e90149a397a5" CvTextArea="549, 591, 200, 24" CvTextArgument="Campus Administrator*" CvType="Text" DesignTimeRectangle="550, 588, 202, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Campus Administrator' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Campus Administrator*' /&gt;" Guid="9ad6e287-1182-49ef-b09b-4e8ae66a3859" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="63cf5545-f796-4ebc-99b0-e90149a397a5" CvTextArea="548, 504, 105, 18" CvTextArgument="Admissions" CvType="Text" DesignTimeRectangle="550, 500, 110, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Admissions' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Admissions*' /&gt;" Guid="376ae96f-177e-417b-a9d4-b1627e3af9d3" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="63cf5545-f796-4ebc-99b0-e90149a397a5" CvTextArea="549, 678, 177, 19" CvTextArgument="Financial Aid Officer" CvType="Text" DesignTimeRectangle="550, 675, 183, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Financial Aid Officer' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Financial Aid Officer*' /&gt;" Guid="b1577f87-3c8a-47c3-abfe-55329e4a116b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="172af7015d8aa38f09c4eda06e4ce870.png" xmlns="">0pgpLYYgH-Ui4l7AEUHWZZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

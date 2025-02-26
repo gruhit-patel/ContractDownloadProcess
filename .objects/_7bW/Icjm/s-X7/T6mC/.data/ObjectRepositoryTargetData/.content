@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PG3UfmD880eZXcJEwEl5_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="a3974687-7471-4dc8-a2e9-bb58bd796471" CvElementArea="30, 240, 28, 24" CvType="Icon" DesignTimeRectangle="31, 239, 27, 27" DesignTimeScaleFactor="1.125" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl id='at_nav_panel_expander' tag='svg' type='' class='Icon-sc-36vrnf-0 kkDTth Icon__StyledIcon-ttu7ny-0 iJOWdx navigationPanel__hamburger' aaname='' /&gt;" Guid="987753ef-2a48-4486-a110-cde7dabd99fa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABoSURBVFhH7ZWxCUBBCEP/1K5yu7iCKziDK/ixPqyEi0UepM0rDPglEMohUA6B8ouISHcfp3o6WrmqpoiMUz0dO+UvoPyillr3mqZ6OnYOzszynDNO9XRwcBB2Dg4qh361F1AOgXIAmT93UjIDXwW6+QAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternship - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a3974687-7471-4dc8-a2e9-bb58bd796471" CvTextArea="90, 297, 109, 19" CvTextArgument="+ Document" CvType="Text" DesignTimeRectangle="82, 293, 126, 27" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl parentid='top-editor-toolbar' tag='BUTTON' type='button' class='Button-cgzqex-0 iWkrqu BaseButton-sc-7rutg1-0 GhostButton-sc-1svqrv3-0 bLgMjQ dqfdRW styled__AddDocumentButton-sc-6d3tz4-41 cZTjlR __toolbar-add-document-button__' aaname='Document' check:innerText='Document' /&gt;" Guid="c0fe17fc-6506-4a8d-a34c-091be3b02b2d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a3ed48753ab8d3d1d46413d205eb2e94.png" xmlns="">0dNW-w7zq8EOItpKW6Ya9Ug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

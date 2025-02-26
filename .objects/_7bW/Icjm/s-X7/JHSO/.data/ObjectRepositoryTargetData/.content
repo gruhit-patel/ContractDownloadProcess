@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tscwx8W_E0iH0OyjkvA61A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="a10d4597-604c-4a49-bb5c-0d9a791c4c0a" CvElementArea="654, 770, 84, 40" CvTextArea="668, 783, 55, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="656, 772, 81, 36" DesignTimeScaleFactor="1.125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='Button-cgzqex-0 bcGtQn BaseButton-sc-7rutg1-0 TertiaryButton-sc-11tn630-0 dkzrqt bDiYAq' check:innerText='Cancel' /&gt;" Guid="3e58b7bb-f5dc-4a95-a019-3ae63fa6109c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a10d4597-604c-4a49-bb5c-0d9a791c4c0a" CvElementArea="752, 715, 27, 24" CvTextArea="663, 719, 85, 16" CvTextArgument="More fields" CvType="ArrowButton" DesignTimeRectangle="656, 713, 128, 27" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='More fields' tag='BUTTON' type='button' class='Button-cgzqex-0 bcGtQn BaseButton-sc-7rutg1-0 GhostButton-sc-1svqrv3-0 lpesUA laCqKl styled__ShowMoreFieldsButton-dj1en4-3 drCyUb' check:innerText='More fields' /&gt;" Guid="5dbf53fb-318f-4b99-9dfe-58ad492f959c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="acd39948ef4f4a0174119432b9bbf25b.png" xmlns="">0QQx5GOm0kk-MArkGgGqU-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

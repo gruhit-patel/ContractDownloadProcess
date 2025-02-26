@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IbvylFT-AU2KFPXfAi2E_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="87770def-8dfb-419e-b788-78809d9fe8ba" CvElementArea="27, 438, 31, 33" CvType="Icon" DesignTimeRectangle="28, 444, 30, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='fa fa-file-text font-white' tag='I' aaname='' /&gt;" Guid="c07f01f8-0d70-47bb-b9bc-55859ceea97f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAZCAYAAABU+vysAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEmSURBVEhLY3AqW/J/MGCcDmlbfvT/lQev/t999p4ovGDXRazmEItxOuTu8/f/SQFbT93537LsyP/zd178z56yA6uZ+DBOhzx48QFqBXEA5JD2FUf/f/3xC+wJUh1DE4eAAKmOoZlDQIAUx9DUISBArGNo7hAQIMYxVHVIWOu6/81LD4MdhIw7Vx77XzhjN1Z7YJhqDiEnpyBjqjmEEHj94ev/opm4Q4Ukh/z6/RecBgjhH7/+QHUgAFUdcvb2c6xq0fGiPZf+//rzF6oLAqjqkE/ffmKtZ9Dxy/dfoToQgKoOoQRQ1SGX77/CyJrY8K6z9/7//fcPqgsChqdDKAHDM7EOmuw7aAo0SsCoQ9AB2Q659eQt1AjqgFdAh+RP24nVLqeyJf8BpmBzzO72f4YAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d74158e51011084416cf79877752dca0.png" xmlns="">0lTm2AwTxTkWczRYk0XmE8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

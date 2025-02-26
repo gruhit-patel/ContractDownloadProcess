@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7HT6biPDdEOxkgn6jRX-0A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="add0b357-92f2-436b-aeb3-d46eca03a835" CvElementArea="28, 465, 306, 43" CvType="InputBox" DesignTimeRectangle="74, 467, 92, 40" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Documents' parentid='app' tag='DIV' /&gt;" Guid="c2928c0b-d11c-4eac-bf53-e0bd32e1ae92" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="add0b357-92f2-436b-aeb3-d46eca03a835" CvElementArea="28, 465, 306, 43" CvType="InputBox" DesignTimeRectangle="29, 467, 261, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Documents' tag='BUTTON' /&gt;" FuzzyMatches="10000" Guid="e1dd8614-f07c-4190-95cf-9acfe7d2c6f7" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e6588c857c02f10f78cae26f3ea6e62f.png" xmlns="">0xgrSidZKHUq0ZLXwXwlnzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

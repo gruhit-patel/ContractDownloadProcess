@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rdFkyJftlUSWZCFs3dJQiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" DesignTimeRectangle="170, 50, 350, 47" DesignTimeScaleFactor="1.5" ElementType="Toolbar" FullSelectorArgument="&lt;wnd ctrlid='1001' title='Address: Documents' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1001' title='Address: Documents' check:text='Address: Documents' /&gt;" Guid="f0c12b2b-3169-4198-91cc-d94f50cc2b85" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="132, 57, 36, 44" ElementType="Toolbar" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='Up band toolbar' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='Up band toolbar' check:text='Up band toolbar' /&gt;" Guid="e41e048d-970e-4602-b241-944008822a28" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopRight" X="-51" Y="14" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="184fbac6a60ed359721b3086e2636922.png" xmlns="">0atkJqGw3RkKHpUI-YLgPXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

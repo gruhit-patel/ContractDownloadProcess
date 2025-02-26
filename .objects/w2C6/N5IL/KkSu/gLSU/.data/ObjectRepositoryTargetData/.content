@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="21neC2U6fkqh9sf2JPSYzA" Reference="m1Fp01h0LUOGvJRWhjL05Q/gLSU7QojDECfPVnirMnUTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="09e934ee-3d4c-497b-980c-932bec058804" CvElementArea="1763, 504, 22, 22" CvTextArea="1710, 506, 54, 18" CvTextArgument="Action" CvType="ArrowButton" DesignTimeRectangle="1705, 502, 84, 28" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class='btn green dropdown-toggle pull-right font-size12' aaname='Action                                                       ' check:innerText='Action' /&gt;" Guid="52fac168-d5e5-4e85-9e60-e9f0bfff8437" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="09e934ee-3d4c-497b-980c-932bec058804" CvTextArea="1569, 471, 126, 18" CvTextArgument="[ContractNo]" CvType="Text" DesignTimeRectangle="1567, 461, 134, 84" ElementType="Text" FuzzySelectorArgument="[assignBtnFuzzySelector]" Guid="40fd75ff-af8b-412a-b69c-dfd3d31efbcc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50edff313cb54b22e6134ee751b1fc7e.png" xmlns="">0BA7NqEAU_UONqN58xpx-TQ</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="2">
+      <ObjectRepositoryVariableData Name="assignBtnFuzzySelector" />
+      <ObjectRepositoryVariableData Name="ContractNo" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

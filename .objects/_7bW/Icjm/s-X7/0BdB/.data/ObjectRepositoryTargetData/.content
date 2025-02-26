@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iMjaOknCi0eaA2ePE05YLw" Reference="m1Fp01h0LUOGvJRWhjL05Q/0BdBPmyvb02VgjzJONLFpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="c965eb83-cf8d-46c4-883f-574817472dd4" DesignTimeRectangle="35, 308, 59, 32" DesignTimeScaleFactor="1.350000023841858" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='top-editor-toolbar' tag='DIV' class='styled__ToolbarIconWrapper-sc-6d3tz4-39 fwSTlc __icon-document-panel__' aaname='' /&gt;" Guid="4b6cf9ec-4ac6-4949-a798-73aae164b2df" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SD173022025105 - PandaDoc' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c965eb83-cf8d-46c4-883f-574817472dd4" CvTextArea="108, 312, 132, 22" CvTextArgument="+ Document" CvType="Text" DesignTimeRectangle="100, 308, 151, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl parentid='top-editor-toolbar' tag='BUTTON' type='button' class='Button-cgzqex-0 iWkrqu BaseButton-sc-7rutg1-0 GhostButton-sc-1svqrv3-0 bLgMjQ dqfdRW styled__AddDocumentButton-sc-6d3tz4-41 cZTjlR __toolbar-add-document-button__' aaname='Document' check:innerText='Document' /&gt;" Guid="95b00ce1-8bb2-4cef-bff8-50450ded467d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="24518b6f416fdbfeb8ee0539b1fa1e52.png" xmlns="">0P5DAaWILDUWfjNP1-neOCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

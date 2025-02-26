@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8xMbyYEahEehoPafJTEBew" Reference="m1Fp01h0LUOGvJRWhjL05Q/V5G_htUe1USPGZT4b1Dkew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="6847e1b9-2151-4f47-901e-2115171fe629" CvElementArea="826, 636, 660, 55" CvType="InputBox" DesignTimeRectangle="831, 639, 532, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='8' tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl class='select2-search__field' tag='INPUT' type='search' placeholder='Select' aaname='' /&gt;" Guid="e8a8cefa-0003-4df4-bf23-0deed25cc23e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6847e1b9-2151-4f47-901e-2115171fe629" CvTextArea="549, 642, 96, 19" CvTextArgument="Placement" CvType="Text" DesignTimeRectangle="550, 639, 103, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Placement' parentid='staffAllDetailsAdd' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Placement' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Placement*' /&gt;" Guid="f0e80573-1986-4b99-8557-b7f1bef7e653" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dbffdbd4e880356f49e8686cf1ec2c67.png" xmlns="">0b6qnt3G9XU-Y7hw-ISBcaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

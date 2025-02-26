@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jWd2uaVycUOdxCqCYlwxrw" Reference="m1Fp01h0LUOGvJRWhjL05Q/3yk5ldZVsEeI22aKSBZDMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/41767/staff-details" CVScreenId="cf475c2d-b6d6-45d2-ba0a-e03cd71fdcfc" CvElementArea="830, 712, 654, 54" CvType="InputBox" DesignTimeRectangle="831, 864, 652, 48" DesignTimeScaleFactor="1.5" ElementType="List" FullSelectorArgument="&lt;webctrl idx='6' parentid='staffAllDetailsAdd' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='staffAllDetailsAdd' tag='UL' class='select2-selection__rendered' aaname='' /&gt;" Guid="63a81193-9dc7-419a-956a-58b881f57a23" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cf475c2d-b6d6-45d2-ba0a-e03cd71fdcfc" CvTextArea="548, 717, 199, 24" CvTextArgument="Campus Administrator" CvType="Text" DesignTimeRectangle="550, 864, 202, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Campus Administrator' parentid='staffAllDetailsAdd' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Campus Administrator' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Campus Administrator*' /&gt;" Guid="7c96c772-aed4-4200-8213-0011ce2ff6e6" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="388bf87844ce37ce2e80e41839ae6097.png" xmlns="">0rvTgJkHI5UKDZP3CvtSttA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

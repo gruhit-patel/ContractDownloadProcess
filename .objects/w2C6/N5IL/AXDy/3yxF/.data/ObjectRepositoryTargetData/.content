@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7X3kGEUbnE2ZW1s1jJFXXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="0fcac5e7-c661-48cc-8c23-a662ef64a182" CvElementArea="122, 695, 31, 31" CvTextArea="167, 701, 37, 19" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="125, 695, 79, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='mt-radio' parentid='hideShowDiv_1' tag='LABEL' type='' aaname='                                                                                  Yes                                                                                                                                                              ' /&gt;" Guid="d805137d-7079-4ad8-b17a-929da2f4cda0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e9a060a5b5dfbe85f9a0cd9b351accd8.png" xmlns="">0v5ZJJrL1eEOpzBAchEws0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

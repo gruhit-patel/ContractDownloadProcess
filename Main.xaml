@@ -1,0 +1,1291 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.Platform</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1194.6666666666667,6180.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1022,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Automation Process Started&quot;]" />
+    <uix:NApplicationCard DisplayName="Browser(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,6100.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="aee4e1ce-7b60-422b-aaf7-f44600a44a48">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do For Chrome Browser" sap:VirtualizedContainerService.HintSize="988,5859.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="scg:IList(x:String)" Name="AdmissionOfficerList" />
+              <Variable x:TypeArguments="scg:IList(x:String)" Name="CampusAdministratorList" />
+              <Variable x:TypeArguments="scg:IList(x:String)" Name="FAOList" />
+              <Variable x:TypeArguments="sd:DataTable" Name="currentAwaitingStudentsTable" />
+              <Variable x:TypeArguments="x:Int32" Default="0" Name="counter" />
+              <Variable x:TypeArguments="x:String" Default="C:\" Name="BaseLocation" />
+              <Variable x:TypeArguments="s:String[]" Default="[{&quot;Scarborough&quot;, &quot;Northyork&quot;, &quot;Brampton&quot;, &quot;Mississauga&quot;}]" Name="branches" />
+              <Variable x:TypeArguments="x:String" Default="https://ccbst.ccbst.co/x/fao-student/new-students" Name="newStudentsURL" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Login'" sap:VirtualizedContainerService.HintSize="954,710.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Timeout="5" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="If not Logged in" sap:VirtualizedContainerService.HintSize="450,458.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="URL" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="anup@ccbst.ca" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="54.210.130.105" CVScreenId="fb4ab24f-90b5-43e0-9b78-09ccd8ea62e0" ContentHash="o2VHY_-aMUmCuvZH3OXO3Q" CvElementArea="743, 472, 453, 52" CvType="InputBox" DesignTimeRectangle="746, 634, 450, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" Guid="d37e8e09-8552-4a80-a886-24bd8d6e018e" ImageBase64="" InformativeScreenshot="4dfdac407846e61b1e372dbcdac1cc10.png" IsResponsive="True" Reference="Kgi-SRNbQEuiiR5LMgCLMw/44jRiZPxl0u-Isme6l_p-w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="7b30f1a3-c461-4f17-8df2-d1a347708131" CvTextArea="744, 561, 22, 31" CvTextArgument="S" CvType="Text" DesignTimeRectangle="746, 557, 450, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='form-title font-green' aaname='Sign In' check:innerText='Sign In' /&gt;" Guid="dbf6d7d1-9849-440a-8c83-e214f6132423" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="ImINdian@123" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="54.210.130.105" CVScreenId="c66a86f1-2882-4586-a47a-826054eccf90" CvElementArea="745, 625, 450, 52" CvType="InputBox" DesignTimeRectangle="746, 707, 450, 51" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="b9dae26e-37bd-4a1b-96f7-d77a910963ce" ImageBase64="" InformativeScreenshot="7aae87ba4145fcf2d205cf674ac04c45.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="0b63ee9e-4ef7-4527-8ca2-cecbefc05d87" CvElementArea="742, 780, 108, 55" CvTextArea="764, 798, 66, 19" CvTextArgument="LOGIN" CvType="Button" DesignTimeRectangle="746, 782, 102, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green uppercase' aaname='Login' check:innerText='LOGIN' /&gt;" Guid="50d4d960-129c-44fc-9846-c0d5f0e72cf4" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x" CVScreenId="fa759b74-27f9-440e-92c9-e8dba20c88c8" ContentHash="SmHcvzgXgEqoF95dDNSVkw" CvElementArea="742, 780, 108, 55" CvTextArea="764, 798, 66, 19" CvTextArgument="LOGIN" CvType="Button" DesignTimeRectangle="746, 782, 102, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green uppercase' aaname='Login' check:innerText='LOGIN' /&gt;" Guid="d223e23a-585a-43da-bef4-7e0c87694ab5" ImageBase64="" InformativeScreenshot="1827711fe95343888119544a12b6cc54.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/bV7IY1d6SEip1FDwu_aPjg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;User Logged In Successful&quot;]" />
+                  <uix:NGoToUrl DelayAfter="4" DisplayName="Go To URL" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[newStudentsURL]" Version="V4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NGoToUrl>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Students Page Reached From [NOT SIGNED]&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="If logged in" sap:VirtualizedContainerService.HintSize="450,286.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="URL" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;User Already Logged In&quot;]" />
+                  <uix:NGoToUrl DelayAfter="5" DisplayName="Go To URL" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[newStudentsURL]" Version="V4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NGoToUrl>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Students Page Reached From [ALREADY SIGNEDIN]&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x" CVScreenId="885da0d7-1097-479c-8db3-f92fbea8736b" ContentHash="h8qXa1FBhUSbGdvJmf-6Ng" CvTextArea="764, 798, 66, 18" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="746, 782, 102, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green uppercase' aaname='Login' check:innerText='LOGIN' /&gt;" Guid="581b44c9-dec9-4368-959b-0b203062475b" InformativeScreenshot="313781d9e4f2b940c6e4fb2c4742e058.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/Y93zyrBi90KXNhQ1K7J18Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create StudentContracts Folder" sap:VirtualizedContainerService.HintSize="954,113.33333333333333" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[Path.Join(BaseLocation, &quot;StudentContract&quot;)]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CreateDirectory>
+            <Assign DisplayName="Update BaseLocation" sap:VirtualizedContainerService.HintSize="954,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_9">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[BaseLocation]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[Path.Join(BaseLocation, "StudentContract")]</InArgument>
+              </Assign.Value>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Assign>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each branch fetch CurrentAwaiting Student" sap:VirtualizedContainerService.HintSize="954,4856" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[branches]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="732.6666666666666,4731.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="branchFolder" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Getting Current Awaiting Students from Branch: &quot; + item]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:LogMessage>
+                    <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="[Path.Combine(BaseLocation, item)]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:CreateDirectory>
+                    <Assign DisplayName="Create branchFolder" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_13">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[branchFolder]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[Path.Combine(BaseLocation, item)]</InArgument>
+                      </Assign.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Assign>
+                    <uix:NSelectItem DisplayName="Select Item 'Branch'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="[item]" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="5">
+                          <x:String>All</x:String>
+                          <x:String>Scarborough</x:String>
+                          <x:String>Brampton</x:String>
+                          <x:String>Northyork</x:String>
+                          <x:String>Mississauga</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="7d8478fa-1ded-4099-b411-09b41cb202ed" ContentHash="C--BArFrekmIT4h95ipwtg" CvElementArea="1412, 154, 188, 55" CvType="InputBox" DesignTimeRectangle="1415, 234, 183, 51" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' type='' class='form-control margin-top-10' aaname='' /&gt;" Guid="3849f5f3-1327-459d-8716-7b0b4fd023d7" ImageBase64="" InformativeScreenshot="4ca5b704c0fdf64be2cf1c5ec2268134.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/5yyXcv65B0COos8Umfqsyg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="7d8478fa-1ded-4099-b411-09b41cb202ed" CvTextArea="1274, 170, 108, 24" CvTextArgument="Help Center" CvType="Text" DesignTimeRectangle="1275, 247, 104, 22" FullSelectorArgument="&lt;webctrl tag='B' aaname='Help Center' innertext='Help Center' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='B' aaname='Help Center' innertext='Help Center' type='' class='' check:text='Help Center' /&gt;" Guid="e9d74f3a-996d-4a64-b7ed-b310852cc91d" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NSelectItem>
+                    <Delay DisplayName="Delay 15s" Duration="00:00:15" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Delay>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DelayBefore="15" DisplayName="Click 'Click to open search ar…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="da52b808-a03b-4e66-b445-761cecee4700" ContentHash="LKqUQQ5EqUiNYeZekovDag" CvTextArea="134, 528, 239, 19" CvTextArgument="Click to open search area" CvType="Text" DesignTimeRectangle="117, 482, 276, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' type='' class='btn btn-link' check:innerText='Click to open search area' /&gt;" Guid="1d190d3a-32de-4f28-8470-b848bc9a8535" ImageBase64="" InformativeScreenshot="1d85c595f68697fd84dc4d63b7eb1b1c.png" Reference="Kgi-SRNbQEuiiR5LMgCLMw/6CCvCJuYOUq-nUbidG8uyA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Status'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="b3b8b110-d702-4513-9873-636e1b0684c2" CvElementArea="114, 565, 257, 55" CvType="InputBox" DesignTimeRectangle="118, 568, 250, 48" DesignTimeScaleFactor="1.5" ElementType="List" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='UL' type='' class='select2-selection__rendered' aaname='' /&gt;" Guid="b40c5961-aa83-43f6-8215-2cfd92c45a7a" InformativeScreenshot="549fc62f1286b815465ade87d1238c3a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                              <uix:Target CVScreenId="b3b8b110-d702-4513-9873-636e1b0684c2" CvTextArea="396, 539, 126, 16" CvTextArgument="From Birth Date" CvType="Text" DesignTimeRectangle="398, 535, 124, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='From Birth Date' /&gt;" Guid="b9cdf014-918f-48c8-94b8-d0a0d14a2eaa" SearchSteps="Selector, FuzzySelector, CV" />
+                              <uix:Target CVScreenId="b3b8b110-d702-4513-9873-636e1b0684c2" CvTextArea="116, 539, 52, 16" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="117, 535, 50, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='LABEL' type='' class='' aaname='Status' check:innerText='Status' /&gt;" Guid="fb427fd9-f421-4238-9640-a8ac31ba5d59" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="TypeInto Status" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="Current Awaiting[k(Enter)]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" ContentHash="RhCAgMFcO06Mxo57oUdPkQ" CvElementArea="114, 415, 256, 55" CvType="InputBox" DesignTimeRectangle="118, 418, 250, 48" DesignTimeScaleFactor="1.5" ElementType="List" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='UL' type='' class='select2-selection__rendered' aaname='' /&gt;" Guid="14724824-64bb-4e45-84e3-8348e3c6b345" InformativeScreenshot="4a74b8d406778787451c409912a12e7c.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/jh3Zr6ClrEqa9uXSy7R4jw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                              <uix:Target CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" CvTextArea="117, 389, 49, 16" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="117, 385, 50, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='LABEL' type='' class='' aaname='Status' check:innerText='Status' /&gt;" Guid="67f98bed-25df-40e2-b217-5325b9e58f56" SearchSteps="FuzzySelector, CV" />
+                              <uix:Target CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" CvTextArea="396, 389, 126, 16" CvTextArgument="From Birth Date" CvType="Text" DesignTimeRectangle="398, 385, 124, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='From Birth Date' /&gt;" Guid="f62d48f6-99b7-45c5-b8ad-80ccf284f448" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NSelectItem DisplayName="Select Item 'Osap Approved'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="Approved" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="3">
+                          <x:String>Please Select</x:String>
+                          <x:String>Approved</x:String>
+                          <x:String>Not Approved</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/fao-student/new-students" CVScreenId="2b330459-edfc-4033-92c8-aa78f95d01c3" ContentHash="a-lT7-Eb3ES78RtUE3-IHw" CvElementArea="396, 458, 257, 50" CvType="InputBox" DesignTimeRectangle="398, 460, 252, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='osap_approved' tag='SELECT' type='' class='form-control form-filter input-sm osap_approved' aaname='' /&gt;" Guid="b785c900-71bc-46f6-8252-6344fdd63896" InformativeScreenshot="4ee0c5a74c9e87b4cd0c0e5ff75b33d9.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/tSJw-bhkrUusKDAkGVSJpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student List' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="2b330459-edfc-4033-92c8-aa78f95d01c3" CvTextArea="396, 432, 125, 19" CvTextArgument="Osap Approved" CvType="Text" DesignTimeRectangle="398, 428, 122, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Osap Approved' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Osap Approved' /&gt;" Guid="6f678af5-93c6-4a09-b362-df132692cfc0" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NSelectItem>
+                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Delay>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Start Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="2025-01-01[k(Enter)]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="e44e2700-dc69-4342-a6fc-5aa5b6334a18" ContentHash="0Q9neRo5yUWVinzSW98e_g" CvElementArea="115, 633, 206, 49" CvType="InputBox" DesignTimeRectangle="117, 634, 202, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='from_started_at' tag='INPUT' type='text' class='form-control form-filter input-sm' placeholder='From' aaname='' /&gt;" Guid="c6ac4d42-f4cd-4510-a5b4-38ab9d8306e5" InformativeScreenshot="0383bc6053e6e55b8d98e581f0de76c0.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/4DkfDfK4dkamNmCXvK1uog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="e44e2700-dc69-4342-a6fc-5aa5b6334a18" CvTextArea="116, 605, 79, 16" CvTextArgument="Start Date" CvType="Text" DesignTimeRectangle="117, 601, 78, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Start Date' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Start Date' /&gt;" Guid="004fb301-5133-4e5e-aee8-61e288547e19" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Delay>
+                    <uix:NSelectItem DisplayName="Select Item to &quot;All&quot;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="All" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="6">
+                          <x:String>10</x:String>
+                          <x:String>20</x:String>
+                          <x:String>50</x:String>
+                          <x:String>100</x:String>
+                          <x:String>150</x:String>
+                          <x:String>All</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="d2fae29b-2aad-410d-a271-e2b68a7c3595" ContentHash="GSWhlLVVF0Wl0hRN6lamsw" CvElementArea="454, 573, 118, 49" CvType="InputBox" DesignTimeRectangle="457, 456, 113, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='datatable_ajax_length' tag='SELECT' type='' class='form-control input-xs input-sm input-inline' aaname='' /&gt;" Guid="2e45348f-845f-4b09-af27-1e9c947e1f25" ImageBase64="" InformativeScreenshot="933143967b8fe93aa4d406f4a652f384.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/YDhojtzcxEGe3asVcJju3g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="d2fae29b-2aad-410d-a271-e2b68a7c3595" CvElementArea="454, 573, 118, 49" CvType="InputBox" DesignTimeRectangle="399, 456, 241, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' type='' class='' aaname='View  records' /&gt;" Guid="6687df40-710d-4111-bb65-7afdc5747128" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NSelectItem>
+                    <Delay DisplayName="Delay 10s" Duration="00:00:10" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Delay>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Export'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="e9821da3-f6d3-4c36-aff1-92773a234f1a" ContentHash="qyM5TX_UkE6m0e62gjR7GA" CvElementArea="1676, 497, 155, 48" CvTextArea="1694, 510, 120, 22" CvTextArgument="Export to excel" CvType="Button" DesignTimeRectangle="1679, 498, 151, 44" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Export to excel' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Export to excel' tag='BUTTON' type='' class='btn btn-sm green btn-outline margin-bottom' check:innerText='Export to excel' /&gt;" Guid="1257c869-359c-42e6-88c2-648ee22b9ae9" InformativeScreenshot="f314dadc759fdce8fdd1c2121b140015.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/-T4n95w9J0e0_UqTyw5WGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="e9821da3-f6d3-4c36-aff1-92773a234f1a" CvElementArea="1633, 399, 103, 48" CvType="Button" DesignTimeRectangle="1636, 401, 98, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                                                          Reset                                                     ' parentid='collapseId' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                                          Reset                                                     ' parentid='collapseId' tag='BUTTON' type='' class='btn btn-sm red btn-outline filter-cancel' check:innerText='Reset' /&gt;" Guid="e756a27e-6310-48cd-95f4-f1fff15bde51" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type currentAwaitingExcel File Name" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="HardwareEvents" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="[Path.Combine(branchFolder, &quot;CurrentAwaitingStudents.xls&quot;) + &quot;[k(Enter)]&quot;]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="b9c11c46-d467-4266-87a5-6c83da35a9cf" ContentHash="uSAGrOcgL0S9wYJciZ_hYw" CvElementArea="198, 532, 745, 34" CvType="InputBox" DesignTimeRectangle="202, 536, 710, 27" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="d25ac603-88c5-4d9a-8ab6-79f7aaad0dab" InformativeScreenshot="baf16c4124dc56441f544491027d44a2.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/OmS90BgO5kGUn61CSU9ohg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="b9c11c46-d467-4266-87a5-6c83da35a9cf" CvTextArea="110, 540, 81, 19" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="26, 533, 173, 33" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' automationid='' check:text='File name:' /&gt;" Guid="fadffcfc-268c-4967-8bc1-2c21e45955ca" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NCheckState DisplayName="Check if CurrentAwaitingStudent.xlsx Exists" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,246.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="0d1cfd0b-fa94-4755-baf9-0582a727b97d" ContentHash="m7uCXTWTl0eAe8ud8wILjQ" CvElementArea="303, 154, 105, 38" CvTextArea="341, 165, 27, 16" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="304, 155, 105, 37" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Yes' cls='Button' title='&amp;amp;Yes' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Yes' cls='Button' title='&amp;amp;Yes' check:text='&amp;amp;Yes' /&gt;" Guid="332b6449-ab80-400c-8717-aaeb65204ba4" InformativeScreenshot="b3d03ea8d431d22309b95de5c8b984a5.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/8FWsBZUq1kuHTbuRJs2K_w" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Confirm Save As' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="89, 68, 434, 50" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' automationid='' check:text='CurrentAwaitingStudents.xls already exists.&amp;#xD;&amp;#xA;Do you want to replace it?' /&gt;" Guid="1559e12d-69d1-4ad7-920f-9525eea19821" SearchSteps="Selector, FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" ContentHash="qoDf3Pxai0G5ayDbzMaNxQ" DesignTimeRectangle="89, 68, 434, 50" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' automationid='' check:text='CurrentAwaitingStudents.xls already exists.&amp;#xD;&amp;#xA;Do you want to replace it?' /&gt;" Guid="2adcd0d0-a566-46c4-8bb1-7cd17484bbc9" InformativeScreenshot="6c479481141978a6c07728312080d231.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/doMhi_xAI0m1WNd_BtFd4Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Confirm Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+                      </uix:NCheckState.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NCheckState>
+                    <uix:NSelectItem DisplayName="Select Item to 10" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="10" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="6">
+                          <x:String>10</x:String>
+                          <x:String>20</x:String>
+                          <x:String>50</x:String>
+                          <x:String>100</x:String>
+                          <x:String>150</x:String>
+                          <x:String>All</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="af6f90a1-d67b-4043-acc2-9b17e5eaa1d9" ContentHash="loALTYSioUSlmqCy5dcMKg" CvElementArea="184, 526, 117, 49" CvType="InputBox" DesignTimeRectangle="187, 528, 112, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='datatable_ajax_length' tag='SELECT' type='' class='form-control input-xs input-sm input-inline' aaname='' /&gt;" Guid="48f4e6db-a049-49f2-af77-325c3123f9ef" ImageBase64="" InformativeScreenshot="4b27535bd1ef343a727c1e08db6a0c3a.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/B8cZqJJZhUad_TKLkRx-QQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="af6f90a1-d67b-4043-acc2-9b17e5eaa1d9" CvElementArea="184, 526, 117, 49" CvType="InputBox" DesignTimeRectangle="140, 528, 230, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' type='' class='' aaname='View  records' /&gt;" Guid="dd73cee7-06fd-49ff-8c78-d318fec20058" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NSelectItem>
+                    <Delay DisplayName="WaitForFileDownlod" Duration="00:00:10" sap:VirtualizedContainerService.HintSize="698.6666666666666,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Delay>
+                    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Reading CurrentStudent XLS file" sap:VirtualizedContainerService.HintSize="698.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1" ShowExcelWindow="False">
+                      <ueab:ExcelProcessScopeX.Body>
+                        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,610.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,550.6666666666666" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[Path.Combine(branchFolder, &quot;CurrentAwaitingStudents.xls&quot;)]">
+                              <ueab:ExcelApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,254" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,194" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Table0&quot;)]" SaveTo="[currentAwaitingStudentsTable]">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ueab:ReadRangeX>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ueab:ExcelApplicationCard.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ueab:ExcelApplicationCard>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelProcessScopeX.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:ExcelProcessScopeX>
+                    <uix:NGoToUrl DelayAfter="5" DisplayName="Go To student-contracts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,116" sap2010:WorkflowViewState.IdRef="NGoToUrl_5" Url="https://ccbst.ccbst.co/x/student-contracts" Version="V4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NGoToUrl>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[currentAwaitingStudentsTable]" DisplayName="For each student in CurrentAwaiting" sap:VirtualizedContainerService.HintSize="698.6666666666666,2870.6666666666665" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="696.6666666666666,2688" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="s:DateTime" Name="startDate" />
+                              <Variable x:TypeArguments="s:DateTime" Name="targetDate" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch DisplayName="Try Downloading Contract" sap:VirtualizedContainerService.HintSize="662.6666666666666,2628" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <TryCatch.Try>
+                                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="660.6666666666666,1970" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="x:Boolean" Name="contractExists" />
+                                  </Sequence.Variables>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[contractExists]" sap:VirtualizedContainerService.HintSize="626.6666666666666,149.33333333333334" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[Path.Combine(branchFolder, row(&quot;Contract No&quot;).ToString(),  row(&quot;Contract No&quot;).ToString()) + &quot;.pdf&quot;]" PathType="File">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:PathExists>
+                                  <If Condition="[contractExists]" DisplayName="If contractExists" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_6">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <If.Then>
+                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,283.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,175.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Student Contract Already Downloaded for: &quot; + row(&quot;Contract No&quot;).ToString() + &quot; | FirstName: &quot; + row(&quot;First Name&quot;).ToString() + &quot; | LastName: &quot; + row(&quot;Last Name&quot;).ToString()]">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </ui:LogMessage>
+                                        <ui:Continue sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="Continue_1" />
+                                      </Sequence>
+                                    </If.Then>
+                                    <If.Else>
+                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </If.Else>
+                                  </If>
+                                  <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create StudentContract Folder" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="CreateDirectory_4" Path="[Path.Join(branchFolder, row(&quot;Contract No&quot;).ToString())]">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:CreateDirectory>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="2" DisplayName="Type Into 'Student Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,252" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="[row(&quot;Contract No&quot;).ToString() + &quot;[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="56580ac4-f4f3-419b-a74c-fa4e39d93bc0" ContentHash="B0JCZ6Br0EGmp7F5DQmcMg" CvElementArea="121, 579, 545, 55" CvType="InputBox" DesignTimeRectangle="144, 591, 45, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentname='student_contract' tag='SPAN' type='' class='select2-selection__placeholder' /&gt;" Guid="a2fc6da5-4d3a-43e7-bbe6-338a4a167d90" InformativeScreenshot="37a43f9cc2f8b3e0cca7b0a8750fcf81.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/0_Lsz05CN0m0ZEigady-Tg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="56580ac4-f4f3-419b-a74c-fa4e39d93bc0" CvTextArea="123, 557, 126, 18" CvTextArgument="Student Name" CvType="Text" DesignTimeRectangle="125, 541, 124, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='control-label' parentid='form_sample_4' tag='LABEL' type='' aaname=' Student Name ' check:innerText='Student Name' /&gt;" Guid="db198c7c-2105-4a48-b4aa-5957bdc76539" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NTypeInto>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Wonderlic Test'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,228" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student/44581/staff-details" CVScreenId="30693a68-5263-4c74-91eb-74526a3550c3" ContentHash="48PCPwOHBUW6ooNk_g-n4g" CvElementArea="355, 633, 36, 36" CvTextArea="402, 642, 141, 19" CvTextArgument="Wonderlic Test" CvType="RadioButton" DesignTimeRectangle="360, 480, 182, 31" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl class='mt-radio' parentid='form_sample_4' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='mt-radio' parentid='form_sample_4' tag='LABEL' type='' aaname='                                                                                 Wonderlic Test                                                                                                                                                              ' /&gt;" Guid="bac42f6c-829e-4f14-a595-9f0790e22f6b" ImageBase64="" InformativeScreenshot="1c18576bc66f7e2ec5b3e557105a1a77.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/NUT41kItPUGLmJiNv2QYzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="30693a68-5263-4c74-91eb-74526a3550c3" CvTextArea="123, 597, 395, 20" CvTextArgument="Ontario Grade 12 Graduate or Wonderlic Test" CvType="Text" DesignTimeRectangle="125, 428, 392, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Ontario Grade 12 Graduate or Wonderlic Test' class='control-label' parentid='form_sample_4' tag='LABEL' type='' check:innerText='Ontario Grade 12 Graduate or Wonderlic Test' /&gt;" Guid="07da009a-58d4-4ed9-8d95-0f5d16462f86" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NClick>
+                                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_7">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Delay>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes RadioButton'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student/44581/staff-details" CVScreenId="4b205625-dc16-42bb-8a23-db5582926b13" ContentHash="wzvenT7AdU-voDvXee_mDQ" CvElementArea="120, 671, 36, 35" CvTextArea="167, 678, 37, 19" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="125, 672, 79, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='mt-radio' parentid='hideShowDiv_2' tag='LABEL' type='' aaname='                                                                                  Yes                                                                                                                                                              ' /&gt;" Guid="870ec9f6-376e-46b9-87ca-705209b3dac4" InformativeScreenshot="6d690f3c93bb36742929fe5a6ded03a0.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/Kgd18G_H5EuB_fj7YEO4ag" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="4b205625-dc16-42bb-8a23-db5582926b13" CvTextArea="123, 635, 375, 19" CvTextArgument="Did you file the wonderlic test in student file" CvType="Text" DesignTimeRectangle="125, 621, 373, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='hideShowDiv_2' tag='LABEL' type='' class='control-label' aaname='Did you file the wonderlic test in student file' check:innerText='Did you file the wonderlic test in student file' /&gt;" Guid="d0d95a54-eba6-43e7-931a-885a02318fbc" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NClick>
+                                  <uix:NCheckState DelayBefore="5" DisplayName="Check for Region Selection" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                    <uix:NCheckState.IfExists>
+                                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,308" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Add Addition locations …'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.33333333333334" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="Toronto[k(Enter)]" Version="V4">
+                                          <uix:NTypeInto.Target>
+                                            <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="8115c360-9d32-40c7-94d4-46d29cff8e61" ContentHash="bBfr7Nzfq0S5TyzuorvZmg" CvElementArea="121, 691, 544, 55" CvType="InputBox" DesignTimeRectangle="126, 694, 537, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='select2-search__field' placeholder='Select' aaname='' /&gt;" Guid="bd299384-f449-4f65-936d-3bd6acd4721e" InformativeScreenshot="3f9e771a42a47bbdbe03eeb6599c5197.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/k_ejcjL6Akq3zaNyOqOlTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                              <uix:TargetAnchorable.Anchors>
+                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                  <uix:Target CVScreenId="8115c360-9d32-40c7-94d4-46d29cff8e61" CvTextArea="122, 668, 373, 22" CvTextArgument="Add Addition locations to practicum Region" CvType="Text" DesignTimeRectangle="125, 654, 370, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='city' tag='LABEL' type='' class='control-label' aaname='Add Addition locations to practicum Region' check:innerText='Add Addition locations to practicum Region' /&gt;" Guid="ab659fab-a5c3-48fd-ba99-e854c7d10771" SearchSteps="FuzzySelector, CV" />
+                                                </scg:List>
+                                              </uix:TargetAnchorable.Anchors>
+                                            </uix:TargetAnchorable>
+                                          </uix:NTypeInto.Target>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NTypeInto>
+                                      </Sequence>
+                                    </uix:NCheckState.IfExists>
+                                    <uix:NCheckState.IfNotExists>
+                                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </uix:NCheckState.IfNotExists>
+                                    <uix:NCheckState.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="898c4ea1-1a75-435c-a3a6-6b1e5a30169c" ContentHash="87lL4Wg6YE-QIzKX4zxAew" CvElementArea="121, 763, 544, 55" CvType="InputBox" DesignTimeRectangle="126, 766, 537, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='select2-search__field' placeholder='Select' aaname='' /&gt;" Guid="2da20e56-45b1-493d-8038-d826143f9a64" InformativeScreenshot="bf88454114526cc076096d839101de70.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/YGT4AE-QnEOwsi318w_ZTQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="898c4ea1-1a75-435c-a3a6-6b1e5a30169c" CvTextArea="122, 740, 373, 22" CvTextArgument="Add Addition locations to practicum Region" CvType="Text" DesignTimeRectangle="125, 726, 370, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='city' tag='LABEL' type='' class='control-label' aaname='Add Addition locations to practicum Region' check:innerText='Add Addition locations to practicum Region' /&gt;" Guid="d191992b-62ee-4d19-a0c0-c5f136b1b35b" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NCheckState.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NCheckState>
+                                  <Assign sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_6">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="s:DateTime">[startDate]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="s:DateTime">[DateTime.ParseExact(row.item("Program Start Date").ToString(), "MMM-dd-yyyy", System.Globalization.CultureInfo.InvariantCulture)]</InArgument>
+                                    </Assign.Value>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Assign>
+                                  <Assign sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="s:DateTime">[targetDate]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="s:DateTime">[DateTime.ParseExact(Date.Today.ToString("MMM-dd-yyyy"), "MMM-dd-yyyy", System.Globalization.CultureInfo.InvariantCulture)]</InArgument>
+                                    </Assign.Value>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Assign>
+                                  <If Condition="[targetDate &lt; startDate]" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_3">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <If.Then>
+                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </If.Then>
+                                    <If.Else>
+                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,167.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <Assign sap:VirtualizedContainerService.HintSize="434,107.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_8">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="s:DateTime">[targetDate]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="s:DateTime">[startDate.AddDays(-1)]</InArgument>
+                                          </Assign.Value>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </Assign>
+                                      </Sequence>
+                                    </If.Else>
+                                  </If>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="5" DisplayName="Type Into 'Enter date when student…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="[targetDate.ToString(&quot;yyyy-MM-dd&quot;) + &quot;[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" ContentHash="XI4g1hzcqESz2bOeVmYg8g" CvElementArea="122, 506, 544, 55" CvType="InputBox" DesignTimeRectangle="125, 508, 538, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='signed_at' tag='INPUT' type='text' class='form-control normal-date-picker required' placeholder='YYYY-MM-DD' aaname='' /&gt;" Guid="722b57c8-93bd-4bc8-a1c5-5a3d99f1c8e3" InformativeScreenshot="ecd12416853a3f71a85d00c5157f859b.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/iWP_FVE7wkq_dEOyS02KkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" CvTextArea="123, 483, 398, 19" CvTextArgument="Enter date when student will sign this contract" CvType="Text" DesignTimeRectangle="125, 468, 395, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter date when student will sign this contract' class='control-label' parentid='form_sample_4' tag='LABEL' type='' check:innerText='Enter date when student will sign this contract' /&gt;" Guid="57d84b09-f523-494e-aec6-867f8cd978a2" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NTypeInto>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="626.6666666666666,178" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;DownloadingContract For: &quot; + row(&quot;Contract No&quot;).ToString() + &quot; | &quot; + row(&quot;First Name&quot;).ToString() + &quot; |  &quot; + row(&quot;Last Name&quot;).ToString() + &quot; | StartDate: &quot; + startDate.ToString(&quot;yyyy-MM-dd&quot;) + &quot; | Settting Date: &quot; + targetDate.ToString(&quot;yyyy-MM-dd&quot;)]">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:LogMessage>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="e1654e18-d80a-4838-b900-e7034aaabf97" ContentHash="Q70VNsiNC0WHJH-JRlxulw" CvElementArea="514, 847, 107, 54" CvTextArea="534, 863, 69, 19" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="517, 848, 103, 51" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green' aaname='Submit' check:innerText='Submit' /&gt;" Guid="768d8df0-b68e-41eb-aa33-932293738d63" InformativeScreenshot="bb99839669812323a4dac2cd60d8d8e1.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/mmDS8_SlOkCxVf9tpMV2UA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NClick>
+                                  <Delay DisplayName="Delay For Download File" Duration="00:00:45" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="Delay_2">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Delay>
+                                  <uix:NCheckState DisplayName="Check if RecentDownoad is Appearing" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Timeout="6" Version="V4">
+                                    <uix:NCheckState.IfExists>
+                                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'student-contracts-ontar…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,221.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                          <uix:NClick.Target>
+                                            <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="7898c9e1-b7e2-4bae-9dd0-48fe3e65f51f" ContentHash="OrpCTn90-0SbljqKwBwfkg" CvTextArea="105, 252, 340, 21" CvTextArgument="student-contracts-ontario-Grade-12" CvType="Text" DesignTimeRectangle="105, 252, 342, 21" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="3d19f06d-f11a-47f8-8d08-75a1aa7efca2" InformativeScreenshot="5922b4d7b0af7a7ed8fd2579f5511420.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/xu_qt3FmjUSPSjJiqKpKcQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='student-contracts-ontario-Grade-12' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive" />
+                                          </uix:NClick.Target>
+                                          <uix:NClick.VerifyOptions>
+                                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionOptions.Retry>
+                                              <uix:VerifyExecutionOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionOptions.Timeout>
+                                            </uix:VerifyExecutionOptions>
+                                          </uix:NClick.VerifyOptions>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NClick>
+                                      </Sequence>
+                                    </uix:NCheckState.IfExists>
+                                    <uix:NCheckState.IfNotExists>
+                                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </uix:NCheckState.IfNotExists>
+                                    <uix:NCheckState.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="dc28ddcf-2e8a-49f2-8ff7-bbb72f854103" ContentHash="F1G1p_BHeEWGfEjIolqRNg" CvTextArea="39, 37, 273, 28" CvTextArgument="Recent download history" CvType="Text" DesignTimeRectangle="39, 37, 273, 28" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="d9a0c911-2846-4b14-88b9-ed2d0ace2b42" InformativeScreenshot="50afcaf703de0bddf3d003d550fedffc.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/NIY5EK2FxUG6-FWtpawlwg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Recent download history' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target DesignTimeRectangle="431, 31, 30, 31" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Recent download history' role='dialog' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Recent download history' role='dialog' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:fulltext='Close' /&gt;" Guid="dc7a0789-4233-4676-9588-fca82643fae0" SearchSteps="Selector, FuzzySelector" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NCheckState.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NCheckState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'PDF Download button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="590cbe24-e2a5-426d-8d2a-a7a4948b1cb6" ContentHash="VtEcdECM70Wz_20m-l0iaA" CvElementArea="1759, 245, 31, 31" CvType="Icon" DesignTimeRectangle="1760, 246, 30, 30" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='student-contracts-ontario-Grade-12' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl idx='3' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='student-contracts-ontario-Grade-12' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="b4b805d0-4134-4aae-acd8-04f2ccef988f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFFSURBVFhH7ZXPSsNAEId9Jg9CTx5KC221tdBCsTfFP4jgW4h4FH2eNjap9h2MF+MppzzByG9hw3bcdrMbkR7m8MFkZmf3y+6S7O0fNGgXEBGOiHBEhFNL5LDZoqfnFwVi25iq1BLpHp9QURQKxLYxVRERjohwRITjJdLuHlGcJDSanKrnXn9YiiBGDjWMabY7a70uvETmUaQWzbJvGk+mv0SQQw3Ps3lknWMTXiLY/o80VQt9ZRnd3N6VIoiRQ4wxvkflfUfw5mn6qRbM87wU0TFq+ph8CLqs5s6YhOyEJkgEcJk6EiBYBGiZuhLAKaJ/85vOHfltNd1vq5s4RfTWn11cWevbQI/ut9VNKovcPzzS+eW1F+j5M5H31aqcLJRk+Wad28Qp0h+OaBEn1gWq8LqIqTdwf1ecIv+FiHBEhCMi6zToB0OgP9h7eLKIAAAAAElFTkSuQmCC" InformativeScreenshot="bf06c3de8aea279f89ecc2054d1d80c8.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/qq8mfSWMWUO9su-jzqGZEQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='student-contracts-ontario-Grade-12 - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NClick>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,252" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="HardwareEvents" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="[Path.Combine(branchFolder, row(&quot;Contract No&quot;).ToString(),  row(&quot;Contract No&quot;).ToString()) + &quot;.pdf[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="ab46c749-34b3-4147-8dd6-9094e566d268" ContentHash="Fc9PxK5bDkCDYBdRSrfVBg" CvElementArea="199, 536, 743, 35" CvType="InputBox" DesignTimeRectangle="202, 541, 710, 27" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="474bbbea-e76f-49fb-bb94-8f39b662a7a1" InformativeScreenshot="7bfe9844daae23b4d8522f60a03c603e.png" IsResponsive="True" Reference="m1Fp01h0LUOGvJRWhjL05Q/iXit-MOia0a3mMfKpDLVpw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="ab46c749-34b3-4147-8dd6-9094e566d268" CvTextArea="110, 544, 80, 20" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="26, 538, 173, 33" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' automationid='' check:text='File name:' /&gt;" Guid="08336541-ad12-4c6b-8fb5-8edcfbe16b2b" SearchSteps="Selector, FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NTypeInto>
+                                  <uix:NNavigateBrowser DelayAfter="3" DisplayName="Back" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,57.333333333333336" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" Version="V4">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NNavigateBrowser>
+                                  <uix:NNavigateBrowser Action="Refresh" DelayAfter="5" DisplayName="Refresh" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,48" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_3" Version="V4">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NNavigateBrowser>
+                                </Sequence>
+                              </TryCatch.Try>
+                              <TryCatch.Catches>
+                                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                  <ActivityAction x:TypeArguments="s:Exception">
+                                    <ActivityAction.Argument>
+                                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                    </ActivityAction.Argument>
+                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="660.6666666666666,468" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="626.6666666666666,178" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Error" Message="[&quot;Skipping Downloading Contract for &quot; + row(&quot;Contract No&quot;).ToString() +  &quot; | Exception: &quot; +  exception.Message +&#xA;&quot; | Source: &quot; + exception.Source]">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:LogMessage>
+                                      <uix:NGoToUrl DelayAfter="5" DisplayName="Go To student-contracts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,116" sap2010:WorkflowViewState.IdRef="NGoToUrl_8" Url="https://ccbst.ccbst.co/x/student-contracts" Version="V4">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NGoToUrl>
+                                      <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="626.6666666666666,114" sap2010:WorkflowViewState.IdRef="Delay_10">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Delay>
+                                    </Sequence>
+                                  </ActivityAction>
+                                </Catch>
+                              </TryCatch.Catches>
+                              <TryCatch.Finally>
+                                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="660.6666666666666,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </TryCatch.Finally>
+                            </TryCatch>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:ForEachRow>
+                    <uix:NGoToUrl DisplayName="Go To students list page" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698.6666666666666,106.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_7" Url="[newStudentsURL]" Version="V4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NGoToUrl>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Chrome" ContentHash="QDySi8bkOEKwvadeH63jFw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAkdSURBVFhHrVdZTFvpFfYkdKIu6ktbqQ9tlKqq1Kqq1MdWXdRWavvaPvSlUrMwLNkzM5k0q5JMkxCYzEKzDRiwr+17r9drYxazeQOM8QoGEwI2WxJCCJjd4I3w9djcJBqVoKaTT/rl7/53Oec/5/zffyx5HXQIFSKTSJwtDT90tjT32ducn4tTEpvTKbI3iGcbaZG9hEP77x94LbcjQ0EVTMbGhMFsuSneklwv/URkbxDr60kJgBx3GGr2eMw3ItPeYiyN62A0WXBXqky2uzrLcw8QjLUmkb0hABs7yIFvOs0Vu7sbP4o+dORjvfc9xIa0aGi0o5rhUX6z4t6Vq6U/Fl+RONs7RfYl4GtmRCaReFqF3f4WWTRqPYx08CDWgu9hbkSDujoHZKwWNYwWN2/fHrS0NL1wItTfJ7LXxER4TmSb8NkMuwM2eTTSWkgrL0TSU4Bk6CRmIjzq653kgAas2gy5ksOdiqp7gUDPT8RXJV3dLwszvroksi3gbRNE9hITEex0mm5/P9h8JzrWWkQrP4DV7nys+goRDxzGfFSHeoqAnNNByZqg4g2QMhyq5Yrw0PD9n4qfydUPjbeyvDfUk5v7Ap5hs9JtAvOWp9X47UAr8y2fQ/WdAZdrr113ZuiR4wAZfwdr3kNY9R5BIkhp6D+BWEQNc4MdVWSYYc1gOA2q1EbI5GzWicettsa/Hzl6+W2/37tnaHjwZzaHdUfO0KvQ393yNb9Vj7C9AgFr6WJf/ftYDhZihVY+0X4BvrpSTLjPYdlPzlAEFqgGzFSENawAA6uEUSOFWsvDrGFQqdLgrowBy+ueSqXVYa1W+2h0fPRPoqn/RjZMy7GR7465q5EJFSNDRjf8B7HsPYxQ022o5GZUKs0wUMVP2s4DoWNYHDbDSBFQskaELHew5D+DGdcpzHSeh1FXDTlfByVfSxHRQK+vD09Nzf9BNPdFPE/BcKds14RPhbR/H5I+Gp4TtNoiDLSVQKnWQ6q2wNVchrXeAqQDRzFH29DU2AYFL6CnoQwrNB8jpx91HofRqEKV0gIFZ6QdooZOXxeOxeJbO/Ac97382xEvM5jqKUKchCbhO4aEvxBrvhPw1l2FwCvQ13QJSe8xpHvfJR1Qw9hoQQ1nQld9OWa7P8BMxz8xZruIBq0MKlUtRcBIOqGGIDQMJOLp7R2I+ky7xnzqxyn/XmQ8xUh5DmMxQBXvLcSs7ywZuY54zxmkvQeQ9B/GLEXA0GDDXaURKpaDoFXApK+BRi2HlOdRwWtRyepxV66CYNKHM6ml7R0YDZp3jfcYlhL3ziHZd5nGRaz2f4B0+AzWwucwFbyBpYELWBs4T6MUsQkzbLZOaIUG6M0WqE323NAJVrpuhq7eAp2pBVpNPZobW0PrqbXfiqa2Rru1Jc/T6bix8HQcC7NPEZubxGzsIWZnpzE7/QBLNLcwM4bY7CPEZqaxEp9HYmUaq/NRLC/cR3xpGPHFKNbmR5GYG6P5YSQWBxGbCmM0OtA7t5z8lWhqa9TWN33FaLY01jACpAozqlRqUjkl/Rooz1rIFFpUKXhIlQbIaVW9PhtSkWukD/sQ9xVjheomHiigsZ+uSS0pjWlvEWKuQ5js/mggMb+4fQqkVfK8qmpFiYzRQ0Fbi1HpIeMEGiQuPDlE+11G83JOD1ZrRm+gG5nIJ0i59yMV2EvakE+7hhwJHMxpR4KuU1Qvc64CPHKXheIr+I1oamsolHweo1SXyRR6KKmylZwB1VwTdCQwVnMFOI4HQ/u6Wq0DrzOhz+/GeqQEGVc+Fj3Haf+fwoTjAkbaLuJJ1ynMkWqukWwvdJEDno8pBfi1aGprqFhtnlKlLduMgACVUg+VXo1eawmWPe8j2FQGnYoFQ5rA6Uh8PG48i/4LCU8+huyXYDVUQENyzKsNaBIqMdh2CXHPUSy5i/HA83F4egG/F01tDY435LGcoayGHFDSalsEFh7bJYzQyNB2nHKdJjkug63uc2j1RvR5g1iPZmtgP2a8JxFxXEQTRarRVIl71suIeU+QjhzBgqsIE57PgokkfiGa2hoajTGPVwtl1VRsHM8ibC1HOkQnoOssFVUhlkj/E/4CjJIhjVaLHr8fmZGrVGxZXSgi2T4Gt+UW2mvvYK7zXSR78un5Ysy7DiLadb2F5P57oqmt4Wx35bVa7Z9W1CjBURjrBTm9eArpnn1I+faSPB/CrPs0LGYpGF0derzt5MC1nANrvsNYIeUM2a7BbryDFDkap7msYM25T6DffrIya2Mltk1PMPXkyc57g/cPSGUKqKgIFYwBFkMlxjovYbL9NEadp9HV/CmpG93TWikFTmRGNx1YzTlwCINUC+31d/AssA+rdC4kfQcR6z6JkP3Ki55xSwwNR0RGqdAbJ2tk1OVwpOVsLcmsGvUmDjxbA16po+KspQ6ogXTA9SIFq7TSFUpDxHkGnbW38Cy0lzTgKBVvMSY6zj7ssVf/Vfz89vB4enZabR1/kynUKTltR4bLNhp03ut0YLPCpBIgZw1gc0LkRiZ6lc6MrAPUrPiK8JRSFrGfw3rgAGlAIR50HFr1NZVfp/zvEk28Gm3WdpFRa20yX2YUXEJOKijLhlylg0KpJeMCdT8CuBcOXNmsAYpAknqHlO8Ilqn4Ut4CTHaepuamVK+qw9ez33wc7sp9e1sIRrPIiAv6i5xGF5Mq1GTUsJEVpuz5zpAaslpKAQlRJlpCDtCJSRFI+N5BhnbLovc4HjqOrfTbypmJ8MDvst/ytHK5b/5P0Ot1IqM/Ih3OQoZVd/AaWrlCQ42niaJghFLTQNswK8XXSYrzSf+ph6C+MdZVjDHnxQcD1s+uCKXeXNhH/JZcQ/pasLc7RCaRjI+O/0gQzHKW1UXl5ARFgyLQiGC2CKMfIuP+B5ao2h92ncRQxw17Vy3zZ8r5V8XX/3/09w+IbBOWpta/qDWCTaHSrGalui/QRdvwMglNPkYcH44NOitvjQ5P/Dz7LLCWW/3GxrPsz5dDo6VFZKQVU0/28Grdhdo6S8rrduBJ+ObGWEdJ0FnH/PF5padTC28DiW/kXnhTGBubEFmug97h9ftPOpyNQ/f7HZOTvuAvxVuS9PRjkWWfS4jsVZBI/gPRTnF0zn3ekQAAAABJRU5ErkJggg==" InformativeScreenshot="e238bb1ce8258a8ed3b6112d342c1c9a.jpg" Reference="m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw" Selector="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" Url="https://ccbst.ccbst.co/x" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

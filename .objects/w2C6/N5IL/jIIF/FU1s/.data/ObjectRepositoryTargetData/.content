@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7N4VMMpNqEqW4GLr2kR_Jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="56e6543b-4ce5-49cb-aab4-fc29aa027557" CvTextArea="512, 492, 60, 13" CvTextArgument="STUDENT" CvType="Text" DesignTimeRectangle="508, 488, 69, 21" DesignTimeScaleFactor="1.350000023841858" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Student' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='STUDENT' /&gt;" Guid="0a34a5fd-e81b-4371-b267-d15e637e0351" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Human Resource Management (Internship) - 41 Page - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="56e6543b-4ce5-49cb-aab4-fc29aa027557" CvTextArea="348, 362, 154, 16" CvTextArgument="Document name" CvType="Text" DesignTimeRectangle="350, 360, 153, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H4' class='Title-sc-1hy0sh-0 elJdIE Caption-sc-1vurad7-0 fXYCvf' aaname='Document name' check:innerText='Document name' /&gt;" Guid="b0d6ca26-9a9d-4e08-9a6e-26ef80651b0a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6110d79c1660c7d4055c688cc3ad0b0d.png" xmlns="">0zk9iEtEwEEyidq2neq3_6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

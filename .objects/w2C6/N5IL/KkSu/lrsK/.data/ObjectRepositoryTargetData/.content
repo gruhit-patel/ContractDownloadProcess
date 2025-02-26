@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uWHeCviI7kOsHkzDiSzwHA" Reference="m1Fp01h0LUOGvJRWhjL05Q/lrsKPT6eJkeFyoM9C0vYVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="0470df63-ef6d-470b-b9b6-8f3afed765bf" CvTextArea="1497, 726, 114, 19" CvTextArgument="Staff Details" CvType="Text" DesignTimeRectangle="1450, 814, 321, 51" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aaname='Staff Details' type='' tag='A' class='' check:innerText='Staff Details' /&gt;" Guid="27662b28-ab0f-44c7-8d88-b1ee5a1c1e1a" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="93ae724fe821eb2730c5ba6e7cfa78f0.png" xmlns="">0PhTMQFr29UKsHyeOg61Drw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

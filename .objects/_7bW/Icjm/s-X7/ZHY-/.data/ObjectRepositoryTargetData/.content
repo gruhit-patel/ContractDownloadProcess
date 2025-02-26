@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uHG3Nm6D2UWLEBxpVyGVIQ" Reference="m1Fp01h0LUOGvJRWhjL05Q/ZHY-9opPTUCg7S-30YUWXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/watch" CVScreenId="96abb2ec-f057-420f-a19b-013e76c5d9b2" DesignTimeRectangle="540, 580, 665, 26" DesignTimeScaleFactor="1.350000023841858" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' innertext='{0}' class='MiddleTruncateTooltip__Wrapper-sc-157i8rl-0 goeRft' check:text='Logistics and Supply Chain Management - Distance Education - 44 Page' /&gt;&quot;, myTemplateName)]" Guid="8d58fc37-6bf6-4319-927e-52df85a4c4ce" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="96abb2ec-f057-420f-a19b-013e76c5d9b2" CvTextArea="450, 383, 34, 15" CvTextArgument="Title" CvType="Text" DesignTimeRectangle="540, 333, 39, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Title' type='' tag='DIV' class='' check:innerText='Title' /&gt;" Guid="89457b5d-97a7-4cdc-a33e-ea599eab5f20" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fbe6ada47159363f7cb7960e8337d928.png" xmlns="">0m-L-fLlXM0SN1ngmzCzryA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="myTemplateName" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

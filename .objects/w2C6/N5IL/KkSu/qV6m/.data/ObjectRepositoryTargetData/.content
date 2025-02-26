@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iayrVCOovUq6pXzeP1HPbg" Reference="Kgi-SRNbQEuiiR5LMgCLMw/rR5f1-eDaEeQqZnerDT_zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/44600/staff-details" CVScreenId="6824ae20-2380-48df-b7d2-82570258ab29" CvElementArea="828, 568, 658, 55" CvType="InputBox" DesignTimeRectangle="840, 579, 109, 25" DesignTimeScaleFactor="1.5" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='staffAllDetailsAdd' tag='LI' class='select2-selection__choice' /&gt;" Guid="967af692-f4e1-48da-b9fd-570714e9bd24" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="6824ae20-2380-48df-b7d2-82570258ab29" CvTextArea="549, 488, 203, 19" CvTextArgument="Back Office Placement" CvType="Text" DesignTimeRectangle="550, 484, 207, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Back Office Placement' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Back Office Placement*' /&gt;" Guid="76de8a60-10fa-49f6-8615-e8ae361409c7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26efe2d670ef245b9daf357abee716bf.png" xmlns="">08pE_gIoRhkKeprnLM-gJoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

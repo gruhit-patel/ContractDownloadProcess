@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SmHcvzgXgEqoF95dDNSVkw" Reference="m1Fp01h0LUOGvJRWhjL05Q/bV7IY1d6SEip1FDwu_aPjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x" CVScreenId="fa759b74-27f9-440e-92c9-e8dba20c88c8" CvElementArea="742, 780, 108, 55" CvTextArea="764, 798, 66, 19" CvTextArgument="LOGIN" CvType="Button" DesignTimeRectangle="746, 782, 102, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn green uppercase' aaname='Login' check:innerText='LOGIN' /&gt;" Guid="d223e23a-585a-43da-bef4-7e0c87694ab5" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1827711fe95343888119544a12b6cc54.png" xmlns="">02PWIuOg9qkyzlVoEps5C-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

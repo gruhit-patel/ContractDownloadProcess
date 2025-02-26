@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Addition locations …",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ey5hQxw4ykCdW4bbecSkmQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/ey5hQxw4ykCdW4bbecSkmQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/AXDyOpUVJkig9iEAG2rm4Q",
+  "Created": "2025-02-10T21:49:10.6201448Z",
+  "Updated": "2025-02-10T21:49:10.6201448Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

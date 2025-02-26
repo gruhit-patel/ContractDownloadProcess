@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x71Jje1B3kOr7w4YDgBFyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/how-to-open-new-tab-of-the-same-browser/525337/4" CVScreenId="56949d8d-03a7-4694-ba4f-231ed134c12d" CvTextArea="1605, 245, 55, 19" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="1600, 237, 246, 36" DesignTimeScaleFactor="1.125" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eAtPjM Input-sc-1qolfy6-0 cWPOMi' placeholder='Search' aaname='' /&gt;" Guid="f967dd9b-d252-4d1b-a343-81e0629ed59a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="88, 219, 1843, 72" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='app' tag='DIV' class='AppHeader__StyledAppHeader-vr5tkj-0 kuHVyY HostAppHeader__Header-sc-88385559-0 dmtgiy' aaname='' /&gt;" Guid="335602f0-3345-450d-97b7-7c2c690aeeb3" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8df6c6cd7d684d47c17e12489da3f806.png" xmlns="">0_U3LaxW_F0mG9kpPcmlDGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

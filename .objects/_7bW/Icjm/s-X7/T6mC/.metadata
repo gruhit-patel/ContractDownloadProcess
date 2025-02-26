@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SVG at_nav_panel_expand…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "T6mCdbIcIkaZYYtILp9XIw",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/T6mCdbIcIkaZYYtILp9XIw",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-11T18:20:32.4412435Z",
+  "Updated": "2025-02-11T18:20:32.4412435Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

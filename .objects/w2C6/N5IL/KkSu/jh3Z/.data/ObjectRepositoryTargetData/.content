@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RhCAgMFcO06Mxo57oUdPkQ" Reference="m1Fp01h0LUOGvJRWhjL05Q/jh3Zr6ClrEqa9uXSy7R4jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" CvElementArea="114, 415, 256, 55" CvType="InputBox" DesignTimeRectangle="118, 418, 250, 48" DesignTimeScaleFactor="1.5" ElementType="List" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='UL' type='' class='select2-selection__rendered' aaname='' /&gt;" Guid="14724824-64bb-4e45-84e3-8348e3c6b345" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" CvTextArea="117, 389, 49, 16" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="117, 385, 50, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='collapseId' tag='LABEL' type='' class='' aaname='Status' check:innerText='Status' /&gt;" Guid="67f98bed-25df-40e2-b217-5325b9e58f56" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="faf7ed51-17b4-49a2-8db8-b3446d40a667" CvTextArea="396, 389, 126, 16" CvTextArgument="From Birth Date" CvType="Text" DesignTimeRectangle="398, 385, 124, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='From Birth Date' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='From Birth Date' /&gt;" Guid="f62d48f6-99b7-45c5-b8ad-80ccf284f448" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a74b8d406778787451c409912a12e7c.png" xmlns="">0QbgwrMTX60yxehOz52LOxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

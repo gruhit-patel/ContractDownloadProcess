@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bqdueuDw0UCmUNQfk-t0_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="35a2857c-51f6-4b69-8c53-d262078c6312" CvElementArea="28, 465, 306, 43" CvType="InputBox" DesignTimeRectangle="29, 467, 261, 40" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Documents' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Documents' tag='BUTTON' type='' class='styled__Action-sc-1tbbxv8-0 styled__ItemActionArea-sc-1tbbxv8-10 bWwPFI kDUmex' check:innerText='Documents' /&gt;" Guid="47c5fae9-1ade-45ea-80d1-1960b43b5f28" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="35a2857c-51f6-4b69-8c53-d262078c6312" CvElementArea="28, 465, 306, 43" CvType="InputBox" DesignTimeRectangle="74, 467, 92, 40" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Documents' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Documents' parentid='app' tag='DIV' type='' class='styled__ItemTitle-sc-1tbbxv8-14 fcDHZZ' check:innerText='Documents' /&gt;" Guid="e6219fc1-fdbb-49da-bdd6-062907e8cd8f" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9cfcbbc311745785214ecbb14bc47580.png" xmlns="">09RagPShb9EW1w6VZWTq9lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

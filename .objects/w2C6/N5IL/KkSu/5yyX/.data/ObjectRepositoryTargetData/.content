@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C--BArFrekmIT4h95ipwtg" Reference="m1Fp01h0LUOGvJRWhjL05Q/5yyXcv65B0COos8Umfqsyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="7d8478fa-1ded-4099-b411-09b41cb202ed" CvElementArea="1412, 154, 188, 55" CvType="InputBox" DesignTimeRectangle="1415, 234, 183, 51" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' type='' class='form-control margin-top-10' aaname='' /&gt;" Guid="3849f5f3-1327-459d-8716-7b0b4fd023d7" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7d8478fa-1ded-4099-b411-09b41cb202ed" CvTextArea="1274, 170, 108, 24" CvTextArgument="Help Center" CvType="Text" DesignTimeRectangle="1275, 247, 104, 22" FullSelectorArgument="&lt;webctrl tag='B' aaname='Help Center' innertext='Help Center' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='B' aaname='Help Center' innertext='Help Center' type='' class='' check:text='Help Center' /&gt;" Guid="e9d74f3a-996d-4a64-b7ed-b310852cc91d" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ca5b704c0fdf64be2cf1c5ec2268134.png" xmlns="">0SkT2QnoZhk6aJFaXFonnKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

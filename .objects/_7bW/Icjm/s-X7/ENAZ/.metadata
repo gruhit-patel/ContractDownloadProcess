@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Documents'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ENAZ-ENqa0umpXJXjCkSEQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/ENAZ-ENqa0umpXJXjCkSEQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-11T20:12:12.1155132Z",
+  "Updated": "2025-02-11T20:12:12.1155132Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

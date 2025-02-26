@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uKa2XfW53EWDXP6ulM2j9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="779a9f37-8d88-4c6a-9e6a-d7a20db1ce91" CvElementArea="1363, 923, 103, 41" CvTextArea="1376, 935, 75, 16" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="1365, 925, 99, 36" DesignTimeScaleFactor="1.125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Continue' tag='BUTTON' type='button' class='Button-cgzqex-0 bcGtQn BaseButton-sc-7rutg1-0 PrimaryButton-sc-52bl8x-0 haoTvp hvQUij styled__StyledContinueButton-fcjLwT emfBHL' check:innerText='Continue' /&gt;" Guid="dd6e7c8a-352f-4eb9-a540-1839c7b88e25" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="779a9f37-8d88-4c6a-9e6a-d7a20db1ce91" CvElementArea="1287, 923, 65, 41" CvTextArea="1302, 935, 36, 19" CvTextArgument="Skip" CvType="Button" DesignTimeRectangle="1290, 925, 61, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Skip' tag='BUTTON' type='button' class='Button-cgzqex-0 bcGtQn BaseButton-sc-7rutg1-0 DefaultButton-sc-1gadg7y-0 dkzrqt gYfTUb styled__StyledSkipButton-gZJhzr gujIs' check:innerText='Skip' /&gt;" Guid="da713730-5aa9-43b7-a020-4954f535c5ab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fe98759a4be7c438d64e65471dfd9e79.png" xmlns="">0fZV5Nil4PkCRgSOR1EYNCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

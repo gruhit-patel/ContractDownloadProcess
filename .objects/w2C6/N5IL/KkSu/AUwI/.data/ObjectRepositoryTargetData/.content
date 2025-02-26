@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5Hkh5QOmEEuzpGl2kxYECw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" DesignTimeRectangle="140, 438, 1660, 1300" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='table-container table-responsive' tag='DIV' aaname='                                                                                                           ' /&gt;" Guid="ce1c1ded-85a7-458a-8f75-524caf605f8e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="98a8d5cc5ba246a7268766d440272fa1.png" xmlns="">0i4kAti6ZLUuf1ONP7GG_dw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

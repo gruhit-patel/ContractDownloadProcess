@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qoDf3Pxai0G5ayDbzMaNxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" DesignTimeRectangle="89, 68, 434, 50" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;ctrl name='Confirm Save As' role='pane' /&gt;&lt;ctrl name='CurrentAwaitingStudents.xls already exists.  Do you want to repl*' role='text' automationid='' check:text='CurrentAwaitingStudents.xls already exists.&amp;#xD;&amp;#xA;Do you want to replace it?' /&gt;" Guid="2adcd0d0-a566-46c4-8bb1-7cd17484bbc9" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Confirm Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6c479481141978a6c07728312080d231.png" xmlns="">0CS5A61m9hEicvFVx-rOMHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

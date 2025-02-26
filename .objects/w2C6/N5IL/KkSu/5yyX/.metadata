@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Help Center",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "5yyXcv65B0COos8Umfqsyg",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/5yyXcv65B0COos8Umfqsyg",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-12T14:59:37.3779756Z",
+  "Updated": "2025-02-12T14:59:37.3779756Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

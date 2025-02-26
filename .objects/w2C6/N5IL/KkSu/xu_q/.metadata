@@ -1,0 +1,14 @@
+﻿{
+  "Name": "student-contracts-ontar…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xu_qt3FmjUSPSjJiqKpKcQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/xu_qt3FmjUSPSjJiqKpKcQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/KkSuFfXrQ0KQTZItd5l6tw",
+  "Created": "2025-02-13T17:24:06.5221335Z",
+  "Updated": "2025-02-13T17:24:06.5221335Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

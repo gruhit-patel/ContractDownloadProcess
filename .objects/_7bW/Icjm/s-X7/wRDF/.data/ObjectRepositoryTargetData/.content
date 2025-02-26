@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6d_Gt9QlskGFAqK2bUUIyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="58121bfa-cf87-4778-94a8-8a829f550e27" CvElementArea="1023, 659, 108, 40" CvTextArea="1037, 668, 80, 18" CvTextArgument="Select file" CvType="Button" DesignTimeRectangle="1026, 660, 104, 36" DesignTimeScaleFactor="1.125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='kolas-editor-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='Select file' tag='BUTTON' type='button' class='uploadcare--button uploadcare--button_size_big uploadcare--button_primary uploadcare--tab__action-button needsclick uploadcare--dragging__hide' check:innerText='Select file' /&gt;" Guid="5a0d4b0d-efe3-4a21-a720-6161c9ec9449" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2c7788ebc72d0cbbb2c6347daff30539.png" xmlns="">08Vsw7LaFU0Sww9IQs6ko4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

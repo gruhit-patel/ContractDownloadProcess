@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qyM5TX_UkE6m0e62gjR7GA" Reference="m1Fp01h0LUOGvJRWhjL05Q/-T4n95w9J0e0_UqTyw5WGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="e9821da3-f6d3-4c36-aff1-92773a234f1a" CvElementArea="1676, 497, 155, 48" CvTextArea="1694, 510, 120, 22" CvTextArgument="Export to excel" CvType="Button" DesignTimeRectangle="1679, 498, 151, 44" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Export to excel' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Export to excel' tag='BUTTON' type='' class='btn btn-sm green btn-outline margin-bottom' check:innerText='Export to excel' /&gt;" Guid="1257c869-359c-42e6-88c2-648ee22b9ae9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e9821da3-f6d3-4c36-aff1-92773a234f1a" CvElementArea="1633, 399, 103, 48" CvType="Button" DesignTimeRectangle="1636, 401, 98, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                                                          Reset                                                     ' parentid='collapseId' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                                          Reset                                                     ' parentid='collapseId' tag='BUTTON' type='' class='btn btn-sm red btn-outline filter-cancel' check:innerText='Reset' /&gt;" Guid="e756a27e-6310-48cd-95f4-f1fff15bde51" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f314dadc759fdce8fdd1c2121b140015.png" xmlns="">0O8na6pBDfE6rbGQJ9f2scQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

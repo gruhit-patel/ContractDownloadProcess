@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RCeF3DIsFUeUC90HaQ3ZMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="18489c68-5e0d-448c-a32f-b480b66133f4" CvTextArea="465, 246, 90, 19" CvTextArgument="Templates" CvType="Text" DesignTimeRectangle="466, 219, 89, 72" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Templates' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Templates' tag='A' type='' class='AppHeaderMenuItem__StyledAppHeaderMenuItem-sc-1j021qh-2 iqJLiK' check:text='Templates' /&gt;" Guid="f167afcc-fe5b-4cb2-924b-2b7e86c47f85" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="18489c68-5e0d-448c-a32f-b480b66133f4" CvTextArea="302, 246, 128, 19" CvTextArgument="My documents" CvType="Text" DesignTimeRectangle="303, 219, 127, 72" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='AppHeaderMenuItem__StyledAppHeaderMenuItem-sc-1j021qh-2 gSCXao' aaname='My documents' check:innerText='My documents' /&gt;" Guid="261218b6-4693-4839-9ca1-2e86608714e5" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="92d9fbbbf806a2e67abcb58e1c766c5a.png" xmlns="">0XnWEQ5drTUar73qzZ38qMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

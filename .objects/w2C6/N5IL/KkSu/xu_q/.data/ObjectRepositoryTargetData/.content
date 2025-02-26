@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OrpCTn90-0SbljqKwBwfkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" CVScreenId="7898c9e1-b7e2-4bae-9dd0-48fe3e65f51f" CvTextArea="105, 252, 340, 21" CvTextArgument="student-contracts-ontario-Grade-12" CvType="Text" DesignTimeRectangle="105, 252, 342, 21" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="3d19f06d-f11a-47f8-8d08-75a1aa7efca2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='student-contracts-ontario-Grade-12' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5922b4d7b0af7a7ed8fd2579f5511420.png" xmlns="">0M36G7ytUfEKD7SM-o-KGUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

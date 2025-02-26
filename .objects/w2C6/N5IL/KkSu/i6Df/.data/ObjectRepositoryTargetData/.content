@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kQLJo1a6zU6rEW8UEdDZaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts-ontario-Grade-12" DesignTimeRectangle="11, 219, 1920, 84" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='student-contracts-ontario-Grade-12' role='document' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='student-contracts-ontario-Grade-12' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:text='student-contracts-ontario-Grade-12/42' /&gt;" Guid="b65d899b-babe-40b3-9c7d-6741b6a12f46" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='student-contracts-ontario-Grade-12 - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2b30c77264f59b109ee56f61ccb4a8f4.png" xmlns="">0NrR9N66GQkGGT19el0IeEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

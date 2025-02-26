@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'JK'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "haxtRFHsE0CSwLtah0KGEQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/haxtRFHsE0CSwLtah0KGEQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/s-X7xdy-Pky0KLQPmY4mKA",
+  "Created": "2025-02-11T17:30:12.5065884Z",
+  "Updated": "2025-02-11T17:30:12.5065884Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

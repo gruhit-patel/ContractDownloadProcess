@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GSWhlLVVF0Wl0hRN6lamsw" Reference="m1Fp01h0LUOGvJRWhjL05Q/YDhojtzcxEGe3asVcJju3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/new-students" CVScreenId="d2fae29b-2aad-410d-a271-e2b68a7c3595" CvElementArea="454, 573, 118, 49" CvType="InputBox" DesignTimeRectangle="457, 456, 113, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='datatable_ajax_length' tag='SELECT' type='' class='form-control input-xs input-sm input-inline' aaname='' /&gt;" Guid="2e45348f-845f-4b09-af27-1e9c947e1f25" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d2fae29b-2aad-410d-a271-e2b68a7c3595" CvElementArea="454, 573, 118, 49" CvType="InputBox" DesignTimeRectangle="399, 456, 241, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='datatable_ajax_length' tag='LABEL' type='' class='' aaname='View  records' /&gt;" Guid="6687df40-710d-4111-bb65-7afdc5747128" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="933143967b8fe93aa4d406f4a652f384.png" xmlns="">0lMnZo0KKhE68VCkPH44SQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

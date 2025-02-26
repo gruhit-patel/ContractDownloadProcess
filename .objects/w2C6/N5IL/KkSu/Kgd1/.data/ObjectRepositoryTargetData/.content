@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wzvenT7AdU-voDvXee_mDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/44581/staff-details" CVScreenId="4b205625-dc16-42bb-8a23-db5582926b13" CvElementArea="120, 671, 36, 35" CvTextArea="167, 678, 37, 19" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="125, 672, 79, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='mt-radio' parentid='hideShowDiv_2' tag='LABEL' type='' aaname='                                                                                  Yes                                                                                                                                                              ' /&gt;" Guid="870ec9f6-376e-46b9-87ca-705209b3dac4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b205625-dc16-42bb-8a23-db5582926b13" CvTextArea="123, 635, 375, 19" CvTextArgument="Did you file the wonderlic test in student file" CvType="Text" DesignTimeRectangle="125, 621, 373, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='hideShowDiv_2' tag='LABEL' type='' class='control-label' aaname='Did you file the wonderlic test in student file' check:innerText='Did you file the wonderlic test in student file' /&gt;" Guid="d0d95a54-eba6-43e7-931a-885a02318fbc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6d690f3c93bb36742929fe5a6ded03a0.png" xmlns="">06XVjH8Y0-USt25XyqpjgVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

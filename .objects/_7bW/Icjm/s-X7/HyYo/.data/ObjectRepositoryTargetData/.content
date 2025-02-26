@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EKX9Gda8EESyeo0vCKLj-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="b84af235-2803-4263-95e2-c96c265a43fd" CvTextArea="512, 753, 133, 14" CvTextArgument="PLACEMENT OFFICER" CvType="Text" DesignTimeRectangle="508, 750, 142, 22" DesignTimeScaleFactor="1.350000023841858" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='PLACEMENT OFFICER' tag='SPAN' /&gt;" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl aaname='PLACEMENT OFFICER' tag='SPAN' type='' class='Root-sc-8ucs9f-0 bsjYwL' check:innerText='PLACEMENT OFFICER' /&gt;" Guid="9ab79b5e-3bf7-40df-a7d2-ba323de3eb9b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Human Resource Management (Internship) - 41 Page - PandaDoc' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b84af235-2803-4263-95e2-c96c265a43fd" CvTextArea="375, 749, 127, 22" CvTextArgument="Add recipient" CvType="Text" DesignTimeRectangle="377, 750, 126, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='Paragraph-sc-1xalku8-0 cdKAkn Paragraph-t6avu0-0 fPDfSY styled__Title-nv2ut4-2 fCFmfP' tag='P' aaname='Add recipient' check:innerText='Add recipient' /&gt;" Guid="7cdca3ba-67c5-4e72-a486-a87f9ae30fe4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3caad00ca6e79f47b0a73902b40a5de3.png" xmlns="">0sl8zLA1l3UOclr2eSG9I1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

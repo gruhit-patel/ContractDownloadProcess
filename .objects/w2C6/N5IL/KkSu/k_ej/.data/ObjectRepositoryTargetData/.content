@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bBfr7Nzfq0S5TyzuorvZmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="8115c360-9d32-40c7-94d4-46d29cff8e61" CvElementArea="121, 691, 544, 55" CvType="InputBox" DesignTimeRectangle="126, 694, 537, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='select2-search__field' placeholder='Select' aaname='' /&gt;" Guid="bd299384-f449-4f65-936d-3bd6acd4721e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8115c360-9d32-40c7-94d4-46d29cff8e61" CvTextArea="122, 668, 373, 22" CvTextArgument="Add Addition locations to practicum Region" CvType="Text" DesignTimeRectangle="125, 654, 370, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='city' tag='LABEL' type='' class='control-label' aaname='Add Addition locations to practicum Region' check:innerText='Add Addition locations to practicum Region' /&gt;" Guid="ab659fab-a5c3-48fd-ba99-e854c7d10771" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f9e771a42a47bbdbe03eeb6599c5197.png" xmlns="">07aO_MvCiqUy6PbbOOYGZRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a-lT7-Eb3ES78RtUE3-IHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/fao-student/new-students" CVScreenId="2b330459-edfc-4033-92c8-aa78f95d01c3" CvElementArea="396, 458, 257, 50" CvType="InputBox" DesignTimeRectangle="398, 460, 252, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='osap_approved' tag='SELECT' type='' class='form-control form-filter input-sm osap_approved' aaname='' /&gt;" Guid="b785c900-71bc-46f6-8252-6344fdd63896" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | FAO Audit Student List' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2b330459-edfc-4033-92c8-aa78f95d01c3" CvTextArea="396, 432, 125, 19" CvTextArgument="Osap Approved" CvType="Text" DesignTimeRectangle="398, 428, 122, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Osap Approved' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Osap Approved' /&gt;" Guid="6f678af5-93c6-4a09-b362-df132692cfc0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ee0c5a74c9e87b4cd0c0e5ff75b33d9.png" xmlns="">0QaWM-lgEw0GwcmZJAXc3Og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

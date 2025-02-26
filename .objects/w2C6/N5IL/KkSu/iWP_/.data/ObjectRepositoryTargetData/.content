@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XI4g1hzcqESz2bOeVmYg8g" Reference="m1Fp01h0LUOGvJRWhjL05Q/iWP_FVE7wkq_dEOyS02KkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student-contracts" CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" CvElementArea="122, 506, 544, 55" CvType="InputBox" DesignTimeRectangle="125, 508, 538, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='signed_at' tag='INPUT' type='text' class='form-control normal-date-picker required' placeholder='YYYY-MM-DD' aaname='' /&gt;" Guid="722b57c8-93bd-4bc8-a1c5-5a3d99f1c8e3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student Contract' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6113cd62-09de-40c9-8be8-fc658c339675" CvTextArea="123, 483, 398, 19" CvTextArgument="Enter date when student will sign this contract" CvType="Text" DesignTimeRectangle="125, 468, 395, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter date when student will sign this contract' class='control-label' parentid='form_sample_4' tag='LABEL' type='' check:innerText='Enter date when student will sign this contract' /&gt;" Guid="57d84b09-f523-494e-aec6-867f8cd978a2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ecd12416853a3f71a85d00c5157f859b.png" xmlns="">0rcEqSc-nkECKp86I1h8RIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

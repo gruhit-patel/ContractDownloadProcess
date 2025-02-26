@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome CCBST  Student Contract(1)",
+  "Type": "Screen",
+  "Id": "cXQpPa7y2k-Jhmv79Q67GA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/cXQpPa7y2k-Jhmv79Q67GA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/N5IL4OTIZ0252BeCnnsQ0w",
+  "Created": "2025-02-10T20:39:26.0954307Z",
+  "Updated": "2025-02-10T20:39:26.0954307Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

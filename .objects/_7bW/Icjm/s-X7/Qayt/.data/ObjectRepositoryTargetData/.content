@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tfhZEbloOkykfQ6-vxsBTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="c457aa83-7909-4f04-b35a-0783b0bdfaf9" CvElementArea="455, 422, 1012, 39" CvType="InputBox" DesignTimeRectangle="454, 423, 1010, 36" DesignTimeScaleFactor="1.125" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='Input-sc-1kxjdmn-0 eemSBi Input-sc-1qolfy6-0 cWPOMi' aaname='' /&gt;" Guid="c6435108-b879-4d53-8190-77e43a0cdcda" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c457aa83-7909-4f04-b35a-0783b0bdfaf9" CvTextArea="452, 402, 129, 15" CvTextArgument="Document name" CvType="Text" DesignTimeRectangle="454, 401, 127, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H4' class='Title-sc-1hy0sh-0 elJdIE Caption-sc-1vurad7-0 fXYCvf' aaname='Document name' check:innerText='Document name' /&gt;" Guid="e54484c7-5119-40fb-8971-5a66a72efeaf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="68d152ea08ea80b4f8408609d94d1d57.png" xmlns="">0VJUXcZw6RU6YJfa4Utf5mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

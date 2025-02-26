@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fy407K-mOkOtw54zMJhe_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/login" CVScreenId="bcabc617-3bc4-47cd-9baf-592b620108f6" CvElementArea="755, 651, 431, 55" CvTextArea="942, 669, 57, 21" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="757, 652, 428, 52" DesignTimeScaleFactor="1.125" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='submit_button' tag='BUTTON' type='submit' class='Button-cgzqex-0 ffzntj BaseButton-sc-7rutg1-0 PrimaryButton-sc-52bl8x-0 eWCwWa bDtBnL sc-cPiKLX injtNr' aaname='Log in' check:innerText='Log in' /&gt;" Guid="b6407e38-f344-47fe-a240-cb09f83346d8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc - fast and easy way to send and sign documents online.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bcabc617-3bc4-47cd-9baf-592b620108f6" CvTextArea="788, 597, 97, 15" CvTextArgument="Remember me" CvType="Text" DesignTimeRectangle="789, 597, 95, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='Text-sc-16xr6qn-0 JukV checkbox-label-text' aaname='Remember me' check:innerText='Remember me' /&gt;" Guid="7a93a4e2-9ee2-4f39-8240-1ed08c973081" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5270ec16e6ce82995aeb0fb7533232d9.png" xmlns="">0HSHlGqZ4HUSPGaZOdTgHBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

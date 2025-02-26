@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0rRi7dxKY02AqMROeygZTQ" Reference="m1Fp01h0LUOGvJRWhjL05Q/MJ0zNFMHkEmraRnwrl4Tjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/student/41767/staff-details" CVScreenId="a6eb9c67-c98d-4172-80ec-14536bbe385f" CvElementArea="831, 774, 652, 54" CvType="InputBox" DesignTimeRectangle="831, 776, 652, 48" DesignTimeScaleFactor="1.5" ElementType="List" FullSelectorArgument="&lt;webctrl idx='5' parentid='staffAllDetailsAdd' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='staffAllDetailsAdd' tag='UL' class='select2-selection__rendered' aaname='' /&gt;" Guid="32d107d8-bf83-4913-aa03-f9bacb0d0782" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Edit Staff Details' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6eb9c67-c98d-4172-80ec-14536bbe385f" CvTextArea="548, 780, 103, 19" CvTextArgument="Admissions" CvType="Text" DesignTimeRectangle="550, 776, 110, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Admissions' parentid='staffAllDetailsAdd' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Admissions' parentid='staffAllDetailsAdd' tag='LABEL' type='' class='control-label' check:innerText='Admissions*' /&gt;" Guid="1172d6ed-a0e2-443d-9424-1de0d1bacdc0" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cb18caa1a93ed6d4de3c5e53337503a6.png" xmlns="">0ih9nOR-CyEGiWOvs54Hj_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

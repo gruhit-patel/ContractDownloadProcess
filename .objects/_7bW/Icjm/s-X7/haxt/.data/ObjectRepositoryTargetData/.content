@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9DVB3-9O3US8F-Z8NHCwUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/a" CVScreenId="33186ac0-5de5-4aa4-b2d7-f3440d8e54a2" CvElementArea="495, 889, 26, 23" CvType="Icon" DesignTimeRectangle="494, 884, 31, 31" DesignTimeScaleFactor="1.125" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='JK' tag='DIV' type='' class='StyledAvatar-sc-1pkll3p-0 hhAmtA' check:innerText='JK' /&gt;" Guid="bc12df39-debe-4370-9cd1-ef40034502c8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANNSURBVFhH3ZhLctNAEIa5DEfgBOQAXAA4BdyBE3ACjsASFizCiqSS+B2/Ysev2LE8T5tV0/+U5chSK5aNXUWx+MplS635NdPzd49fWGvpX+H/EeOsIfM4IzUckp5NySkl3leUvcTo2QPZYZ9Uu06qek2Lm1+kazdkOw0yjTItypekylekb2tk7u9IPYzF5+RRSIxjVKdF5rZKrtMkP+jRcjKm39FjhuV0TH7UJ3fXItuq0wIxBWfsWTHOGHL8dqpyRa7fEQffxXI84Nm6JMsv4I0Wx4nJFYN80JiNeolWs4k40D5YXlrd5FniF5TGA6IYBKhGhVy3KT74UDznG/LM5yybKAYzYo8sJMZPhqQ46THz6XEzYpAjWBrpQcfC8iZADjq3PfaWGKdVSNZj5MguVOWa/OM0X4xZK5aCjw2sQdeug21kxGj2B/iIFHgqLHuRuu9lxVh2TBiaFHQqYI66Wc+KMewDcFYp6FQgN1E+4qXaiEGtybP4NJVPH+nHm1c0v/zJedag83dn4Tdci79/e/2Sxt+/ZmLToJ7ZaJ4QwyYHM5JulnhOTPJaOk5Cc4G100lCjFqE6ivdLJEnpvPlc+EZiYHnoG49iYmiUDukmyUkMRABIEiKycPzxonajW0x6EekmyUkMedvz8JvFx/eh10ixUmg/pl+N5UznEjSzRK7lmmf2YG3mcloWwy2GBojKSAJ3hpvDwEQkhSD6/jcJ2/C1ubPJzGMblR3Tm88UHKwtJj4e5EZWnEbixVx66ZrI8b0uIqyPUtBpyJ0gdjaaw1PM8N9BnpWKehUuH6bdLedFROablYJtVLgsVnN+YhTuiCfaLI2YoKgRRSaZyn42Bjuh+1osBkbbIkJsAntY4CH4NZj+NTYGTHIbH1bCc2z9KC/ZcXdHWZ/KRxbsjPDePadCF08J7X0wEOBEFPiKj3dbjdjRDEABy508Shk0oP3BUuDGXF8NpfGA7liANbU9dqheS7a66TBrkGyhubt0BNlEo9tyM0Xela49K7TA5wVFgEfwfY1vGukc1KaQmJA8CGurrpZC/UENh4aI15Gz011qL5c9OJrijeBavNpo4CImMJikoSelT0JHRrKP/4iQTmxDyP2qnlmyxbD0h+ozv4yQ0J3iwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GruhitHumanResourceInternshipTemplate - PandaDoc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="33186ac0-5de5-4aa4-b2d7-f3440d8e54a2" CvTextArea="533, 893, 49, 13" CvTextArgument="Create" CvType="Text" DesignTimeRectangle="534, 883, 99, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Jaspreet Kaur' tag='SPAN' type='' class='styled__TruncatedText-sc-10og80-7 fNkhDi' check:innerText='Jaspreet Kaur' /&gt;" Guid="9f4e4c59-4e25-43a5-95d8-443b5dcf4ca5" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="534, 900, 134, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='office.east@ccbst.ca' tag='SPAN' type='' class='styled__TruncatedText-sc-10og80-7 fNkhDi' check:innerText='office.east@ccbst.ca' /&gt;" Guid="94a42bf4-7c63-4bc3-b29f-0464fc40475b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopRight" X="-14" Y="15" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="544a06dec29aabc8964999c903c43522.png" xmlns="">0AIxBSDKK80OmofIRO1gaQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

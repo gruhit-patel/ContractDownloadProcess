@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter date when student…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "e5wycgbCy0qikjK9Z4mSJQ",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/e5wycgbCy0qikjK9Z4mSJQ",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/AXDyOpUVJkig9iEAG2rm4Q",
+  "Created": "2025-02-10T21:21:22.1933204Z",
+  "Updated": "2025-02-10T21:21:22.1933204Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
