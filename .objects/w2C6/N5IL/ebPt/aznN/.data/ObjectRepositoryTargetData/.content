@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BwY7NcIhf0CVsxdAP5dDBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="0acb17f1-0dc1-45db-b545-271eb7441371" CvElementArea="1764, 751, 24, 23" CvTextArea="1713, 753, 52, 18" CvTextArgument="Action" CvType="ArrowButton" DesignTimeRectangle="1707, 749, 84, 28" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class='btn green dropdown-toggle pull-right font-size12' aaname='Action                                                       ' check:innerText='Action' /&gt;" Guid="19b149e9-abc1-4e5a-8815-b24f96b2cf7d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0acb17f1-0dc1-45db-b545-271eb7441371" CvTextArea="1577, 683, 98, 16" CvTextArgument="Contract No" CvType="Text" DesignTimeRectangle="1575, 649, 128, 59" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aria-label='Contract No: activate to sort column ascending' type='' tag='TH' class='sorting' aaname='Contract No' check:innerText='Contract No' /&gt;" Guid="0cb3a255-b38e-4ae4-b0fc-f845fe8054a9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="236c178a7bc279c702f41dd602e08b97.png" xmlns="">0r5OSF-4mDkmNridjxgZwEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

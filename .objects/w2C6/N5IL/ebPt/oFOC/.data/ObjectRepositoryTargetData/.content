@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vhESQXLw-UiphPyGYLVC2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="a75503d2-cf0f-48d9-a7bd-fe02d968c307" CvTextArea="116, 770, 82, 19" CvTextArgument="Search By" CvType="Text" DesignTimeRectangle="117, 766, 81, 25" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Search By' /&gt;" Guid="1e25bc84-1b6f-405b-81c6-153662e2667d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5ba1378847aa30987bff732f4b76c66f.png" xmlns="">0cYpICgC9K0eLrTEEhfbMXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

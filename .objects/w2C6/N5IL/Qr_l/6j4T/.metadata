@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Accept Cookie",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6j4TrieEMkqybw-AxRu_HA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/6j4TrieEMkqybw-AxRu_HA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/Qr_l1phKZE6wIFZHp8evew",
+  "Created": "2025-03-10T00:21:04.103748Z",
+  "Updated": "2025-03-10T00:21:04.103748Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

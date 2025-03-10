@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome CCBST  Student list",
+  "Type": "Screen",
+  "Id": "ebPtaZS020O1H4cFSIsQ4g",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/ebPtaZS020O1H4cFSIsQ4g",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/N5IL4OTIZ0252BeCnnsQ0w",
+  "Created": "2025-03-07T17:04:20.5925987Z",
+  "Updated": "2025-03-07T17:04:20.5925987Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

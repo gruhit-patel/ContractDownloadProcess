@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="osZrdS1WaUWtQXE5u04eaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" CvElementArea="1418, 232, 184, 55" CvType="InputBox" DesignTimeRectangle="1420, 234, 180, 51" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' type='' class='form-control margin-top-10' aaname='' /&gt;" Guid="12e6549a-4ab7-4aa7-83a2-ebb80c553b8e" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" CvTextArea="1278, 248, 108, 24" CvTextArgument="Help Center" CvType="Text" DesignTimeRectangle="1280, 247, 104, 22" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Help Center' check:innerText='Help Center' /&gt;" Guid="0fc55f38-981c-4915-964a-2bbe8f75ba3f" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" CvTextArea="1607, 315, 249, 18" CvTextArgument="MARCH 07, 2025 12:04:33 PM" CvType="Text" DesignTimeRectangle="1609, 315, 248, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl id='date-part' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='date-part' tag='SPAN' type='' class='thin uppercase hidden-xs' /&gt;" Guid="54218eae-24e8-4d1d-b664-6472ae65dc26" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="69c3371278419d7b07cada9460f5410f.png" xmlns="">0RBVJBdWRXk-jaTAtUE5mqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

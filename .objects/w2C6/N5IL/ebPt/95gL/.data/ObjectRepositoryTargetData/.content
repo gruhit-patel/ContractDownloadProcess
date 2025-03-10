@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cWOSrmKAHkiRBClvJTCWag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="c7908a81-d439-4aa1-958c-8448d0c933d1" CvTextArea="134, 528, 239, 19" CvTextArgument="Click to open search area" CvType="Text" DesignTimeRectangle="117, 513, 276, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' type='' class='btn btn-link collapsed' check:innerText='Click to open search area' /&gt;" Guid="182f7fb1-ffcd-4647-91c1-3408099a9739" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c7908a81-d439-4aa1-958c-8448d0c933d1" CvTextArea="129, 431, 178, 31" CvTextArgument="Student List" CvType="Text" DesignTimeRectangle="131, 427, 1282, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname=' Student List' check:innerText='Student List' /&gt;" Guid="5fa8fd11-44a5-44de-8928-7278b047d0da" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="57812a605f67521b8979327948a1da72.png" xmlns="">0zT7WJRzKBEClTltB7s6rUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

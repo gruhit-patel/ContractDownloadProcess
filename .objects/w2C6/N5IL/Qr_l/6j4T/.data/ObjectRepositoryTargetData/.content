@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="no_zNUyd-U6Y2_vdwYFE8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="app.pandadoc.com/login" CVScreenId="db501171-fec3-4e22-b06b-993b8c309e4e" CvElementArea="1590, 925, 230, 63" CvTextArea="1653, 945, 100, 22" CvTextArgument="Accept All" CvType="Button" DesignTimeRectangle="1593, 926, 225, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='onetrust-accept-btn-handler' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='onetrust-accept-btn-handler' tag='BUTTON' type='' class='' aaname='Accept All' check:innerText='Accept All' /&gt;" Guid="bacf7da9-6ed5-4a71-b1bc-bdf28f85d820" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PandaDoc - fast and easy way to send and sign documents online.' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="26c6317761378041caf5c489c7116428.png" xmlns="">0w3Km4WxJR0O-K33fvVh1Bg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

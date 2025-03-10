@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click to open search ar…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "95gLWG_tGU683dUwDCiJCg",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/95gLWG_tGU683dUwDCiJCg",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/ebPtaZS020O1H4cFSIsQ4g",
+  "Created": "2025-03-07T17:06:13.8190225Z",
+  "Updated": "2025-03-07T17:06:13.8190225Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

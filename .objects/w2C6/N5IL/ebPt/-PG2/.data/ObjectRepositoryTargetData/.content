@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1adIYjhBK0qT8SkLYz9mLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="ffbd7b00-ecbe-463c-b711-834be8520849" CvElementArea="115, 586, 256, 49" CvType="InputBox" DesignTimeRectangle="117, 588, 252, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl name='search_by' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='search_by' tag='SELECT' type='' class='form-control form-filter input-sm' aaname='' /&gt;" Guid="54535ffd-be76-43b0-90ae-cba475aa2364" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ffbd7b00-ecbe-463c-b711-834be8520849" CvTextArea="117, 558, 81, 19" CvTextArgument="Search By" CvType="Text" DesignTimeRectangle="117, 555, 81, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Search By' /&gt;" Guid="11358c07-9408-4884-bbec-0a2a535fd963" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed286c1e6665eb5309b4d5d82faea9eb.png" xmlns="">0EIYJIxnxuE-T83XuBlizmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

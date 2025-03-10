@@ -131,28 +131,32 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1194.6666666666667,6180.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1194.6666666666667,8566" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1022,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Automation Process Started&quot;]" />
-    <uix:NApplicationCard DisplayName="Browser(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,6100.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="aee4e1ce-7b60-422b-aaf7-f44600a44a48">
+    <uix:NApplicationCard DisplayName="Download Student Contract" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,8438" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="aee4e1ce-7b60-422b-aaf7-f44600a44a48" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do For Chrome Browser" sap:VirtualizedContainerService.HintSize="988,5859.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do For Chrome Browser" sap:VirtualizedContainerService.HintSize="988,8187.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="scg:IList(x:String)" Name="AdmissionOfficerList" />
               <Variable x:TypeArguments="scg:IList(x:String)" Name="CampusAdministratorList" />
               <Variable x:TypeArguments="scg:IList(x:String)" Name="FAOList" />
               <Variable x:TypeArguments="sd:DataTable" Name="currentAwaitingStudentsTable" />
-              <Variable x:TypeArguments="x:Int32" Default="0" Name="counter" />
+              <Variable x:TypeArguments="x:Int32" Name="counter">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:Int32" />
+                </Variable.Default>
+              </Variable>
               <Variable x:TypeArguments="x:String" Default="C:\" Name="BaseLocation" />
-              <Variable x:TypeArguments="s:String[]" Default="[{&quot;Scarborough&quot;, &quot;Northyork&quot;, &quot;Brampton&quot;, &quot;Mississauga&quot;}]" Name="branches" />
+              <Variable x:TypeArguments="s:String[]" Default="[{&quot;Brampton&quot;, &quot;Mississauga&quot;, &quot;Scarborough&quot;,  &quot;Northyork&quot;}]" Name="branches" />
               <Variable x:TypeArguments="x:String" Default="https://ccbst.ccbst.co/x/fao-student/new-students" Name="newStudentsURL" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
@@ -161,9 +165,9 @@
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Login'" sap:VirtualizedContainerService.HintSize="954,710.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Timeout="5" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'Login'" sap:VirtualizedContainerService.HintSize="954,982.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Timeout="5" Version="V4">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="If not Logged in" sap:VirtualizedContainerService.HintSize="450,458.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="If not Logged in" sap:VirtualizedContainerService.HintSize="450,690.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="URL" />
                   </Sequence.Variables>
@@ -200,7 +204,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NTypeInto>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="ImINdian@123" Version="V4">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" IsPassword="True" ScopeIdentifier="aee4e1ce-7b60-422b-aaf7-f44600a44a48" Text="IM@indian123" Version="V4">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="54.210.130.105" CVScreenId="c66a86f1-2882-4586-a47a-826054eccf90" CvElementArea="745, 625, 450, 52" CvType="InputBox" DesignTimeRectangle="746, 707, 450, 51" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="b9dae26e-37bd-4a1b-96f7-d77a910963ce" ImageBase64="" InformativeScreenshot="7aae87ba4145fcf2d205cf674ac04c45.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Admin Login' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -222,8 +226,8 @@
                     </uix:NTypeInto.VerifyOptions>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NTypeInto>
@@ -313,13 +317,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each branch fetch CurrentAwaiting Student" sap:VirtualizedContainerService.HintSize="954,4856" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[branches]">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each branch fetch CurrentAwaiting Student" sap:VirtualizedContainerService.HintSize="954,6912" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[branches]">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="item" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="732.6666666666666,4731.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="732.6666666666666,6787.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="branchFolder" />
                     </Sequence.Variables>
@@ -690,14 +694,14 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,610.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,650.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_40">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,550.6666666666666" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[Path.Combine(branchFolder, &quot;CurrentAwaitingStudents.xls&quot;)]">
+                            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,590.6666666666666" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[Path.Combine(branchFolder, &quot;CurrentAwaitingStudents.xls&quot;)]">
                               <ueab:ExcelApplicationCard.Body>
                                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                   <ActivityAction.Argument>
@@ -745,13 +749,13 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NGoToUrl>
-                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[currentAwaitingStudentsTable]" DisplayName="For each student in CurrentAwaiting" sap:VirtualizedContainerService.HintSize="698.6666666666666,2870.6666666666665" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[currentAwaitingStudentsTable]" DisplayName="For each student in CurrentAwaiting" sap:VirtualizedContainerService.HintSize="698.6666666666666,4926.666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                       <ui:ForEachRow.Body>
                         <ActivityAction x:TypeArguments="sd:DataRow">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="696.6666666666666,2688" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="696.6666666666666,4744" sap2010:WorkflowViewState.IdRef="Sequence_12">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="s:DateTime" Name="startDate" />
                               <Variable x:TypeArguments="s:DateTime" Name="targetDate" />
@@ -762,7 +766,7 @@
                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <TryCatch DisplayName="Try Downloading Contract" sap:VirtualizedContainerService.HintSize="662.6666666666666,2628" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                            <TryCatch DisplayName="Try Downloading Contract" sap:VirtualizedContainerService.HintSize="662.6666666666666,4684" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -770,7 +774,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <TryCatch.Try>
-                                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="660.6666666666666,1970" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="660.6666666666666,4026" sap2010:WorkflowViewState.IdRef="Sequence_42">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:Boolean" Name="contractExists" />
                                   </Sequence.Variables>
@@ -1188,6 +1192,209 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </uix:NNavigateBrowser>
+                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome CCBST  Student list" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="626.6666666666666,2056" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="2531340a-a955-4ba5-8465-ac977a447f70" Version="V2">
+                                    <uix:NApplicationCard.Body>
+                                      <ActivityAction x:TypeArguments="x:Object">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1805.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NSelectItem DisplayName="Change Branch To All" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_6" Item="All" ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Version="V4">
+                                            <uix:NSelectItem.Items>
+                                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                                <x:String>All</x:String>
+                                                <x:String>Scarborough</x:String>
+                                                <x:String>Brampton</x:String>
+                                                <x:String>Northyork</x:String>
+                                                <x:String>Mississauga</x:String>
+                                              </scg:List>
+                                            </uix:NSelectItem.Items>
+                                            <uix:NSelectItem.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" ContentHash="osZrdS1WaUWtQXE5u04eaw" CvElementArea="1418, 232, 184, 55" CvType="InputBox" DesignTimeRectangle="1420, 234, 180, 51" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='select_campus_id' tag='SELECT' type='' class='form-control margin-top-10' aaname='' /&gt;" Guid="12e6549a-4ab7-4aa7-83a2-ebb80c553b8e" ImageBase64="" InformativeScreenshot="69c3371278419d7b07cada9460f5410f.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/par1OFCtY064NVtp5Bt5BA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" CvTextArea="1278, 248, 108, 24" CvTextArgument="Help Center" CvType="Text" DesignTimeRectangle="1280, 247, 104, 22" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Help Center' check:innerText='Help Center' /&gt;" Guid="0fc55f38-981c-4915-964a-2bbe8f75ba3f" SearchSteps="FuzzySelector, CV" />
+                                                    <uix:Target CVScreenId="1e7eafda-a27a-4f04-8f87-ae6af318ecad" CvTextArea="1607, 315, 249, 18" CvTextArgument="MARCH 07, 2025 12:04:33 PM" CvType="Text" DesignTimeRectangle="1609, 315, 248, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl id='date-part' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='date-part' tag='SPAN' type='' class='thin uppercase hidden-xs' /&gt;" Guid="54218eae-24e8-4d1d-b664-6472ae65dc26" SearchSteps="Selector, FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NSelectItem.Target>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NSelectItem>
+                                          <Delay DisplayName="Delay 10s" Duration="00:00:10" sap:VirtualizedContainerService.HintSize="416,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_11">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Delay>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click to open search ar…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="c7908a81-d439-4aa1-958c-8448d0c933d1" ContentHash="cWOSrmKAHkiRBClvJTCWag" CvTextArea="134, 528, 239, 19" CvTextArgument="Click to open search area" CvType="Text" DesignTimeRectangle="117, 513, 276, 50" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                 Click to open search area                                 ' tag='BUTTON' type='' class='btn btn-link collapsed' check:innerText='Click to open search area' /&gt;" Guid="182f7fb1-ffcd-4647-91c1-3408099a9739" InformativeScreenshot="57812a605f67521b8979327948a1da72.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/95gLWG_tGU683dUwDCiJCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="c7908a81-d439-4aa1-958c-8448d0c933d1" CvTextArea="129, 431, 178, 31" CvTextArgument="Student List" CvType="Text" DesignTimeRectangle="131, 427, 1282, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname=' Student List' check:innerText='Student List' /&gt;" Guid="5fa8fd11-44a5-44de-8928-7278b047d0da" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NClick>
+                                          <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,271.3333333333333" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                            <uix:NMouseScroll.SearchedElement>
+                                              <uix:SearchedElement>
+                                                <uix:SearchedElement.Target>
+                                                  <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="a75503d2-cf0f-48d9-a7bd-fe02d968c307" ContentHash="vhESQXLw-UiphPyGYLVC2w" CvTextArea="116, 770, 82, 19" CvTextArgument="Search By" CvType="Text" DesignTimeRectangle="117, 766, 81, 25" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Search By' /&gt;" Guid="1e25bc84-1b6f-405b-81c6-153662e2667d" InformativeScreenshot="5ba1378847aa30987bff732f4b76c66f.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/oFOCqhF2sUq3gSQEplfoSw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                                </uix:SearchedElement.Target>
+                                                <uix:SearchedElement.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:SearchedElement.Timeout>
+                                              </uix:SearchedElement>
+                                            </uix:NMouseScroll.SearchedElement>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NMouseScroll>
+                                          <uix:NSelectItem DisplayName="Select &quot;Search By Field&quot;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_7" Item="Contract No." ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Version="V4">
+                                            <uix:NSelectItem.Items>
+                                              <scg:List x:TypeArguments="x:String" Capacity="10">
+                                                <x:String>Please Select</x:String>
+                                                <x:String>First Name</x:String>
+                                                <x:String>Last Name</x:String>
+                                                <x:String>Postal Code</x:String>
+                                                <x:String>Mobile No.</x:String>
+                                                <x:String>Phone No.</x:String>
+                                                <x:String>Email</x:String>
+                                                <x:String>SIN</x:String>
+                                                <x:String>Contract No.</x:String>
+                                                <x:String>Merged Number</x:String>
+                                              </scg:List>
+                                            </uix:NSelectItem.Items>
+                                            <uix:NSelectItem.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="ffbd7b00-ecbe-463c-b711-834be8520849" ContentHash="1adIYjhBK0qT8SkLYz9mLg" CvElementArea="115, 586, 256, 49" CvType="InputBox" DesignTimeRectangle="117, 588, 252, 45" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl name='search_by' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='search_by' tag='SELECT' type='' class='form-control form-filter input-sm' aaname='' /&gt;" Guid="54535ffd-be76-43b0-90ae-cba475aa2364" ImageBase64="" InformativeScreenshot="ed286c1e6665eb5309b4d5d82faea9eb.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/-PG2R3VmJEqM4fiPe7D08Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="ffbd7b00-ecbe-463c-b711-834be8520849" CvTextArea="117, 558, 81, 19" CvTextArgument="Search By" CvType="Text" DesignTimeRectangle="117, 555, 81, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Search By' /&gt;" Guid="11358c07-9408-4884-bbec-0a2a535fd963" SearchSteps="Selector, FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NSelectItem.Target>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NSelectItem>
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search By'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Text="[row(&quot;Contract No&quot;).ToString() + &quot;[k(Enter)]&quot;]" Version="V4">
+                                            <uix:NTypeInto.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="9bb74d2e-7821-4d67-9659-3ff7846e0e4a" ContentHash="LVMiVabirk-UYtHh_Ym9vg" CvElementArea="396, 580, 537, 49" CvType="InputBox" DesignTimeRectangle="398, 582, 536, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='search_text' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='search_text' tag='INPUT' type='text' class='form-control form-filter input-sm' placeholder='Search...' aaname='' /&gt;" Guid="557d9530-d203-46b3-a65e-632c19c3447f" InformativeScreenshot="1d32fc6446aeb950bf3ebc4ca7689f14.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/xBV0B38I3EW3y_T4FMnCEA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="9bb74d2e-7821-4d67-9659-3ff7846e0e4a" CvTextArea="117, 558, 81, 19" CvTextArgument="Search By" CvType="Text" DesignTimeRectangle="117, 555, 81, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Search By' parentid='collapseId' tag='LABEL' type='' class='' check:innerText='Search By' /&gt;" Guid="4d90539f-bb01-4ba0-88e3-d165a330b0ae" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NTypeInto.Target>
+                                            <uix:NTypeInto.VerifyOptions>
+                                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                              </uix:VerifyExecutionTypeIntoOptions>
+                                            </uix:NTypeInto.VerifyOptions>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NTypeInto>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Action" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="0acb17f1-0dc1-45db-b545-271eb7441371" ContentHash="BwY7NcIhf0CVsxdAP5dDBA" CvElementArea="1764, 751, 24, 23" CvTextArea="1713, 753, 52, 18" CvTextArgument="Action" CvType="ArrowButton" DesignTimeRectangle="1707, 749, 84, 28" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class='btn green dropdown-toggle pull-right font-size12' aaname='Action                                                       ' check:innerText='Action' /&gt;" Guid="19b149e9-abc1-4e5a-8815-b24f96b2cf7d" InformativeScreenshot="236c178a7bc279c702f41dd602e08b97.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/aznNa_JXMUitzFxErjdsPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="0acb17f1-0dc1-45db-b545-271eb7441371" CvTextArea="1577, 683, 98, 16" CvTextArgument="Contract No" CvType="Text" DesignTimeRectangle="1575, 649, 128, 59" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aria-label='Contract No: activate to sort column ascending' type='' tag='TH' class='sorting' aaname='Contract No' check:innerText='Contract No' /&gt;" Guid="0cb3a255-b38e-4ae4-b0fc-f845fe8054a9" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NClick>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click StudentFile" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,221.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2531340a-a955-4ba5-8465-ac977a447f70" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="ccbst.ccbst.co/x/students" CVScreenId="b536041c-8997-4082-8572-8919be271167" ContentHash="G3lBxRaDcEywQnvG5Z9hTA" CvTextArea="1476, 809, 112, 19" CvTextArgument="Student File" CvType="Text" DesignTimeRectangle="1454, 793, 321, 51" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aaname='Student File' tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='datatable_ajax' tag='TABLE' /&gt;&lt;webctrl aaname='Student File' type='' tag='A' class='' check:innerText='Student File' /&gt;" Guid="7c3257c9-33fd-432e-8567-028b4c5778a0" InformativeScreenshot="daf06d4a9d3b0bd82124a986cfeab8f3.png" Reference="m1Fp01h0LUOGvJRWhjL05Q/wc4gEuk6G0WWpBFhd0TsrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NClick>
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </uix:NApplicationCard.Body>
+                                    <uix:NApplicationCard.TargetApp>
+                                      <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Chrome" ContentHash="FE2R2GWKz0S_aicrMPwblQ" IconBase64="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" InformativeScreenshot="b409944a8b35106023818f10063e7dff.jpg" Reference="m1Fp01h0LUOGvJRWhjL05Q/ebPtaZS020O1H4cFSIsQ4g" Selector="&lt;html app='chrome.exe' title='CCBST | Student list' /&gt;" Url="https://ccbst.ccbst.co/x/students" Version="V2" />
+                                    </uix:NApplicationCard.TargetApp>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NApplicationCard>
                                   <uix:NNavigateBrowser Action="Refresh" DelayAfter="5" DisplayName="Refresh" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="626.6666666666666,48" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_3" Version="V4">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1284,8 +1491,26 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1022,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_49">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="UploadContractToPandadoc" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UploadContractToPandadoc.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <scg:Dictionary x:TypeArguments="x:String, Argument" />
+            </ui:InvokeWorkflowFile.Arguments>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InvokeWorkflowFile>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
   </Sequence>
 </Activity>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click StudentFile",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wc4gEuk6G0WWpBFhd0TsrA",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/wc4gEuk6G0WWpBFhd0TsrA",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/ebPtaZS020O1H4cFSIsQ4g",
+  "Created": "2025-03-07T17:11:06.608703Z",
+  "Updated": "2025-03-07T17:11:06.608703Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

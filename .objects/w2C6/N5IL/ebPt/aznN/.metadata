@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click Action",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "aznNa_JXMUitzFxErjdsPw",
+  "Reference": "m1Fp01h0LUOGvJRWhjL05Q/aznNa_JXMUitzFxErjdsPw",
+  "ParentRef": "m1Fp01h0LUOGvJRWhjL05Q/ebPtaZS020O1H4cFSIsQ4g",
+  "Created": "2025-03-07T17:10:15.1356597Z",
+  "Updated": "2025-03-07T17:10:15.1356597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
